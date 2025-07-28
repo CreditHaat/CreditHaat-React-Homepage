@@ -1,0 +1,126 @@
+/* CreditCardList.css */
+
+/* Container for the grid */
+.credit-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Exactly three equal columns for desktop */
+  gap: 20px; /* Space between grid items */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .credit-card-grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+}
+
+/* Styles for each card item */
+.credit-card-item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures the button is at the bottom */
+  width: auto; /* Fixed width */
+  height: auto; /* Fixed height */
+  max-width: 100%; /* Ensure card does not exceed container width */
+}
+
+/* Hover effects for the cards */
+.credit-card-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Styling the content inside each card */
+.credit-company-names {
+  padding: 20px; /* Added padding around content */
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow content to take up available space */
+}
+
+.credit-company-names-first, .credit-company-names-second {
+  margin-bottom: 12px;
+  
+}
+
+.credit-company-names img {
+  max-width: calc(100% - 20px); /* Width of image minus padding */
+  height: auto;
+  border-radius: 8px;
+  padding: 10px; /* Added padding around images */
+  display: block;
+  margin: 0 auto; /* Center images */
+}
+
+.credit-credit-company-divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 8px 0;
+}
+
+/* Center the button and update its background color */
+.credit-congraths-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  margin-top: auto; /* Ensure it is pushed to the bottom */
+}
+
+.credit-congraths-button {
+  background-color: #3e2780;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.credit-congraths-button:hover {
+  background-color: #2c1a5c;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Confetti container and piece styling */
+.credit-confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.confetti-piece {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+  animation: confetti-fall 5s ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
