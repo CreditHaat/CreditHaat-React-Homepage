@@ -22,6 +22,12 @@ import PersonalLoanInfo from './components/Products/PersonalLoanInfo';
 import HowItWorks from './components/NewHomePage/HowItWorks';
 import CreditScoreSecondPage from './components/NewHomePage/CreditScoreSecondPage';
 import NewAllPartners from './components/Products/NewAllPartners';
+import Sitemap2 from './components/Products/Sitemap2';
+import ExperianTerms from './components/NewHomePage/experianTerms';
+// import PLoanSecondPage from './components/Products/PLoanSecondPage';
+// import PLoanThirdPage from './components/Products/PLoanThirdPage';
+// import BusinessLoanPageTwo from './components/Products/BusinessLoanPageTwo';
+// import BusinessLoanPageFour from './components/Products/BusinessLoanPageFour';
 
 // import AboutPage from './components/AboutPage';
 // import ContactPage from './components/ContactPage';
@@ -52,6 +58,7 @@ function App() {
         <Route path="/plinfo" element={<PersonalLoanInfo />} />
         <Route path="/hiw" element={<HowItWorks />} />
         <Route path="/NewAllPartners" element={<NewAllPartners/>}/>
+        <Route path="/experianTerms" element={<ExperianTerms/>}/>
         
 
         {/* Dynamic Route for PersonalLoan with citypages */}
@@ -67,6 +74,18 @@ function App() {
         
         {/* Catch-all route for 404 */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
+        {/* Catch-all route for 404 */}
+        <Route path="/Sitemap" element={<Sitemap2/>} />
+
+
+{/* *------------testing pages--------------
+<Route path="/PloanSecondPage" element={<PLoanSecondPage/>} />
+<Route path="/PloanThirdPage" element={<PLoanThirdPage/>} />
+
+<Route path="/BLoanSecondPage" element={<BusinessLoanPageTwo/>} />
+<Route path="/BLoanThirdPage" element={<BusinessLoanPageFour/>} />
+<Route path="/creditcardpagetwo" element={<CreditCardPageTwo/>} /> */}
+
 
       </Routes>
     </Router>

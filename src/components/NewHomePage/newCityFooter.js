@@ -15,10 +15,10 @@ const NewCityFooter = () => {
         <div class="row" >
  
         <div class="col-sm" style={{color:"white"}}>
-        <a href="/personalLoan" style={{color:"white",marginLeft:"-10px"}}>Travel loan</a>
+        <a href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" style={{color:"white",marginLeft:"-10px"}}>Travel loan</a>
         </div>
         <div class="col-sm text-right">
-          <a href="/personalLoan" style={{color:"white",marginLeft:"-10px"}}>Marriage loan</a>
+          <a href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" style={{color:"white",marginLeft:"-10px"}}>Marriage loan</a>
         </div>
         <div class="col-sm text-right" >
           <a href="/creditCard" style={{color:"white",marginLeft:"-10px"}}>Secured cards</a>

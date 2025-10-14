@@ -22,14 +22,15 @@ const NewHomePageFooter = () => {
             <b style={{color:"white", fontSize:"20px"}}>Product</b>
 
             <li class="footer-link_item">
-                <a class="footer-link_item"  href="/PersonalLoan">Personal loan</a>
+                <a class="footer-link_item"  href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">Personal loan</a>
             </li>
             <li class="footer-link_item">
-              <a class="footer-link_item" href="/BusinessLoan" >Business loan</a>
+              <a class="footer-link_item" href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" >Business loan</a>
             </li>
             <li class="footer-link_item">
-              <a class="footer-link_item" href="/creditcard">Credit card</a>
+              <a class="footer-link_item" href="/creditcard">Credit cards</a>
             </li>
+
             {/* <li class="footer-link_item">
               <a class="footer-link_item" href="/UpcomingProducts">Upcoming products</a>
             </li> */}
@@ -54,6 +55,9 @@ const NewHomePageFooter = () => {
             <li class="footer-link_item">
               <a class="footer-link_item" href="/CreditScore">Credit score</a>
             </li>
+              <li class="footer-link_item">
+              <a class="footer-link_item" href="https://sachet.rbi.org.in/">RBI Sachet Portal</a>
+            </li>
           </ul>
   </div>
 
@@ -77,8 +81,11 @@ const NewHomePageFooter = () => {
     <div class="copy-right container">
       <div class="row" >
  
+        <div class="col-sm" style={{color:"white"}}>&#169;2025 Vibhuprada Services <br></br> Private Limited.
+        </div>
         <div class="col-sm" style={{color:"white"}}>All rights reserved
         </div>
+        
         <div class="col-sm text-right">
           <a href="/termsC" style={{color:"white" ,textDecoration:"none"}}>Terms of service</a>
         </div>
@@ -88,6 +95,9 @@ const NewHomePageFooter = () => {
         <div class="col-sm text-right" >
           <a href="/ContactUs" style={{color:"white",textDecoration:"none"}}>Contact us</a>
         </div>
+        {/* <div class="col-sm text-right" >
+          <a href="/Sitemap" style={{color:"white",textDecoration:"none"}}>Sitemap</a>
+        </div> */}
       </div>
     </div>
   </footer>

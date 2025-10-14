@@ -45,7 +45,7 @@ const CreditScoreSecondPage = ({creditScore2, markVarToSend}) => {
     },
   };
 
-  const fullUrl = `http://localhost/h5/credit_report?mark=${encodeURIComponent(markVarToSend)}`
+  const fullUrl = `https://loan.credithaat.com/h5/credit_report?mark=${encodeURIComponent(markVarToSend)}`
 
   return (
     <>

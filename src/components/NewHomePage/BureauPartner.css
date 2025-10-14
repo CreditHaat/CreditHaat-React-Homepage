@@ -21,14 +21,13 @@
 
 .logo-container-b {
     display: flex;
-    justify-content: center; /* Center align items horizontally */
-    align-items: center; /* Center align items vertically */
 }
 
 .bureau-logo {
     max-width:15%; /* Ensure logo fits within its container */
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Adjust margin above logo */
+    margin-left: 43%;
 }
 
 @media (max-width: 768px) {
@@ -40,5 +39,7 @@
         max-width:40%; /* Ensure logo fits within its container */
         height: auto; /* Maintain aspect ratio */
         margin-top: 10px; /* Adjust margin above logo */
+        margin-left: 30%;
+
     }
 }

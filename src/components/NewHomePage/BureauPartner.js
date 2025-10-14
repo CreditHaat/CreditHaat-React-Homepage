@@ -9,8 +9,10 @@ const BureauPartner = () => {
         <div className="bureau-partner">
             <h1 className="bureau-heading">Bureau partner</h1>
             <div className="logo-container-b">
+            <a href="https://www.experian.in/" target="_blank" rel="noopener noreferrer">
                 <img src={exe} alt="Bureau Partner Logo" className="bureau-logo" />
-            </div>
+            </a>
+                        </div>
         </div>
     );
 }

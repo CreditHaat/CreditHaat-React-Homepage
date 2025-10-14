@@ -32,33 +32,37 @@ function BusinessLoanPageTwo({ onNext, onPrevious, mainFormData, dobFlag }) {
   
     // Validate PAN format only when changing the 'pan' field
     if (name === 'pan') {
-      if (/^[A-Z]{5}[0-9]{4}[A-Z]{1}$/.test(formattedValue) || formattedValue === '') {
-        setFormData({
-          ...formData,
-          [name]: formattedValue,
-        });
-        setErrors({
-          ...errors,
-          [name]: '',
-        });
-      } else {
-        setFormData({
-          ...formData,
-          [name]: formattedValue,
-        });
-        setErrors({
-          ...errors,
-          [name]: 'Invalid PAN format',
-        });
-      }
-    } else {
-      // For other fields (dob, gender, address), simply update formData
-      setFormData({
-        ...formData,
-        [name]: formattedValue,
-      });
-    }
-  };
+      // Remove any non-alphanumeric characters
+      const formattedValue = value.replace(/[^A-Za-z0-9]/g, '').toUpperCase();
+ // Validate PAN format
+ if (
+  formattedValue.length <= 10 &&
+  /^[A-Z]{0,5}[0-9]{0,4}[A-Z]?$/.test(formattedValue)
+) {
+  setFormData({
+    ...formData,
+    [name]: formattedValue,
+  });
+}
+
+// Clear error message when user starts typing again
+setErrors({
+  ...errors,
+  [name]: '',
+});
+} else {
+setFormData({
+  ...formData,
+  [name]: value,
+});
+
+// Clear error message when user starts typing again
+setErrors({
+  ...errors,
+  [name]: '',
+});
+}
+};
   
 
   const handleSubmit = (e) => {
@@ -88,7 +92,7 @@ function BusinessLoanPageTwo({ onNext, onPrevious, mainFormData, dobFlag }) {
       newErrors.pan = 'PAN is required';
       valid = false;
     } else if (!/^[A-Z]{5}[0-9]{4}[A-Z]{1}$/.test(formData.pan)) {
-      newErrors.pan = 'Invalid PAN format';
+      newErrors.pan = 'PAN is required';
       valid = false;
     }
   

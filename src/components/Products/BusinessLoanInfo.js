@@ -13,17 +13,17 @@ function BusinessLoanInfo(){
             <div className="ploan-feature">
               <img src={ploaniagetwo} alt="Feature 1" />
               <h4>Lower <br className='desktoponly'/>rates</h4>
-              <p>Affordable EMIs with low interest business loan from leading financial institutes</p>
+              <p>Get business loan in low interest rate through CreditHaat</p>
             </div>
             <div className="ploan-feature">
               <img src={ploanimagethree} alt="Feature 2" />
               <h4>Quick and easy</h4>
-              <p>Hassle free online loan application process. Simple and paperless process with quick approvals.</p>
+              <p>Hassle free online loan application process. Simple and paperless process with quick approvals through CreditHaat.</p>
             </div>
             <div className="ploan-feature">
               <img src={ploanimagefour} alt="Feature 3" />
               <h4>Secure process</h4>
-              <p>Your personal and financial information is protected with stringent security measures.</p>
+              <p>Your personal and financial information is protected with stringent security measures through CreditHaat.</p>
             </div>
           </div>
         </div>

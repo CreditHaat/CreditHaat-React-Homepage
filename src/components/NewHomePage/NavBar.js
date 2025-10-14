@@ -42,17 +42,17 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <div className="nav-links" onClick={toggleDropdown}>
+              <div className="nav-links"  style={{cursor:"pointer"}} onClick={toggleDropdown}>
                 Products
                 {showDropdown && (
                   <ul className="dropdown-content" style={{listStyleType:"none"}}>
                     <li>
-                      <NavLink to="/PersonalLoan" activeClassName="active">
+                      <NavLink to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" activeClassName="active">
                         Personal loan
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/BusinessLoan" activeClassName="active">
+                      <NavLink to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" activeClassName="active">
                         Business loan
                       </NavLink>
                     </li>

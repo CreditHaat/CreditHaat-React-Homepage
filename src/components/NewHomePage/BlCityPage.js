@@ -32,8 +32,8 @@ const BlCityPage = () => {
     { question: 'What is the qualification criteria for business loans?',  answer: (
         <>
           <p>
-            1. You can check out the lenders where your eligibility is matched from the <Link to="/businessloan">business loan eligibility form</Link>. 
-            You can also check your credit score from the <Link to="/creditscore">check credit score page</Link>.
+            1. You can check out the lenders where your eligibility is matched from the <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney"  className="no-underline-link" style={{ textDecoration: 'none' }}>business loan eligibility form</Link>. 
+            You can also check your credit score from the <Link to="/Creditscore">check credit score page</Link>.
           </p>
         </>
       )
@@ -160,10 +160,10 @@ return (
   <section className="city-sect">
   <div className="city-page-container">
     <div className="city-text-section">
-      <h1>Getting a Business loan in {cityDetails.city_name}</h1>
-      <p>Apply for Business loans up to ₹1Cr in {cityDetails.city_name}</p>
-      <p>Minimum monthly turnover ₹1L  | Instant approval|</p>
-      <Link to="/businessloan">
+      <h1>Business loan in {cityDetails.city_name}</h1>
+      <p>Apply for <b>Business loans</b> up to ₹1Cr in <b>{cityDetails.city_name}</b></p>
+      <p>Minimum monthly turnover ₹1L  | Instant approval |</p>
+      <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">
               <button className="apply-button-city">Apply Business loan</button>
             </Link>
       <div className="safe-secure">
@@ -174,7 +174,7 @@ return (
                     <div className="image-container-city">
                         <img
                             src={cityDetails.image_url} // Replace with your city image path
-                            alt="City Image"
+                            alt={`Image for business loan in ${cityDetails.city_name} from CreditHaat`}
                         />
                         <div className="gradient-overlay"></div>
                     </div>
@@ -197,7 +197,7 @@ return (
     </div>
 
     <div className="samecontent">
-            <p>This has led to an increased demand for <Link to='/BusinessLoan'>business loans</Link> in {cityDetails.city_name} for needs as diverse as -</p>
+            <p>This has led to an increased demand for <a to='#'>business loans</a> in {cityDetails.city_name} for needs as diverse as -</p>
             <ul className="samecitycontent">
                 <li>Business expansion</li>
                 <li>Inventory purchase</li>

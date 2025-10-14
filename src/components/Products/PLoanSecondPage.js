@@ -106,7 +106,7 @@ function PLoanSecondPage({ onNext, dobFlag, mainFormData }) {
 
     // Validate PAN
     if (!/^[A-Z]{5}[0-9]{4}[A-Z]$/.test(formData.pan)) {
-      newErrors.pan = 'PAN should be in format ABCDE1234F';
+      newErrors.pan = 'PAN is required';
       valid = false;
     }
 

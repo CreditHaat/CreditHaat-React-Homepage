@@ -3,7 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './PersonalLoanProduct.css';
 // import newploanimageone from '../NewHomePage/NewHomePageImages/undraw_Dreamer_re_9tua.png';
-import newploanimageone from '../Products/ProductsImages/plimg.png';
+import newploanimageone from '../Products/ProductsImages/plimg1.png';
 import CustomerReview from '../NewHomePage/CustomerReview';
 import Snehal from "../NewHomePage/NewHomePageImages/Snehal.jpeg.jpeg";
 import NETHI from "../NewHomePage/NewHomePageImages/NETHI.jpeg";

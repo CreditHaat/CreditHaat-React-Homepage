@@ -242,10 +242,10 @@ const ContactUs = () => {
         <div className="support-option" onClick={() => window.open(`https://wa.me/7391043932`, '_blank')}>
           <FaWhatsapp style={{ color: '#3e2780', fontSize: '50px' }} />
         </div>
-        <div className="support-option" onClick={() => window.open(`tel:+91 7391043932`, '_blank')}>
+        <div className="support-option" onClick={() => window.open(`tel:+91 912047304552`, '_blank')}>
           <FaPhoneAlt style={{ color: '#3e2780', fontSize: '50px' }} />
         </div>
-        <div className="support-option" onClick={() => window.open(`mailto:contact@credithaat.com`, '_blank')}>
+        <div className="support-option" onClick={() => window.open(`mailto:support@credithaat.com`, '_blank')}>
           <FaEnvelope style={{ color: '#3e2780', fontSize: '50px' }} />
         </div>
       </div>
@@ -270,3 +270,4 @@ const ContactUs = () => {
 }
 
 export default ContactUs;
+

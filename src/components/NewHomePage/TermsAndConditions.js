@@ -55,7 +55,7 @@ const TermsAndConditions = () => {
 
                 <div className="content-of-termsC">
                     <h2>Privacy policy</h2>
-                    <p>By using the Website, you hereby consent to the use of your information as we have outlined in our <a href="">Privacy Policy.</a></p>
+                    <p>By using the Website, you hereby consent to the use of your information as we have outlined in our <a href="/privacy">Privacy Policy.</a></p>
                 </div>
 
                 <div className="content-of-termsC">
@@ -118,7 +118,7 @@ const TermsAndConditions = () => {
                     <p>You may not assign or otherwise transfer your rights or obligations under these Terms. CreditHaat may assign its rights and duties under these Terms without any such assignment being considered a change to the Terms and without any notice to you. If we fail to act on your breach or anyone else's breach on any occasion, we are not waiving our right to act with respect to future or similar breaches. Other terms and conditions may apply to loans or other financial products that you may apply on the Website. You will observe these other terms and conditions. The laws of India, without regard to its conflict of laws rules, will govern these Terms, as well as your and our observance of the same. If you take any legal action relating to your use of the Website or these Terms, you agree to file such action only in the courts located in Pune, India. In any such action that we may initiate, the prevailing party will be entitled to recover all legal expenses incurred in connection with the legal action, including but not limited to costs, both taxable and non-taxable, and reasonable attorney fees. You acknowledge that you have read and have understood these Terms, and that these Terms have the same force and effect as a signed agreement. This paragraph shall survive termination of this agreement.</p>
                     <p>CreditHaat reserves the right to make changes to the Website, related policies and agreements, this terms of use and the Privacy Policy at any time as it deems fit and proper, including but not limited to comply with changes in law or regulation, correct inaccuracies, omissions, errors or ambiguities, reflect changes in the process flow, scope and nature of the Services and ancillary services, company re-organization, market practice or customer requirements.</p>
                     <p>Upon any change, CreditHaat will notify the updated Terms on the Website or other means. Your continued use of the Services and ancillary services constitutes acceptance of the changes and an agreement to be bound by Terms, as amended. If you do not agree to the changes, you may please discontinue your use of the Services.</p>
-                    <p>These terms of use were last updated on 15th July, 2024.</p>
+                    <p>These terms of use were last updated on 14 November, 2024.</p>
                 </div>
 
             </div>

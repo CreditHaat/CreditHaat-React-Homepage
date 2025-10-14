@@ -454,8 +454,11 @@ const CreditScore = () => {
                 {errors.pan && <span className="invalid-feedback-cs">{errors.pan}</span>}
               </div>
               <div className="input-group mb-2 ">
+                <p className="terms-text" style={{fontSize:"12px", color:"#000000a6", height: '40px', textAlign:'justify', overflowX: 'hidden', overflowY: 'auto' }}>
+                You hereby consent to CreditHaat being appointed as your authorized representative to receive your Credit Information from Experian for the purpose of accessing credit worthiness and availing pre-approved offers (“End Use Purpose”). You hereby agree to <a href="/experianTerms">Terms and Conditions</a>.
+                I authorize CreditHaat, its partner financial institutes/lenders and their representatives to Call, SMS or communicate via WhatsApp regarding my application. This consent overrides any registration for DNC / NDNC. I confirm I am in India, I am a major and a resident of India and I have read and I accept CreditHaat Privacy Policy Click here to read the <a href="/privacy">PRIVACY POLICY</a> & <a href="/termsC">TERMS OF SERVICE</a></p>
                 <p className="terms-text" style={{color:"#000000a6", height: '40px', textAlign:'justify', overflowX: 'hidden', overflowY: 'auto' }}>
-                  By clicking "Request OTP" button and accepting the terms and conditions set out here in, you provide your express consent to Social Worth Technologies Private Limited, Whizdm Innovations Pvt Ltd, Upwards Fintech Services Pvt Ltd, Tata Capital Financial Services Ltd, SmartCoin Financials Pvt Ltd, MWYN Tech Pvt Ltd, L&T Finance Ltd, Krazybee Services Pvt Ltd, Infocredit Services Pvt. Ltd, Incred Financial Services, IIFL Finance Ltd, EQX Analytics Pvt Ltd, EPIMoney Pvt Ltd, Bhanix finance and Investment LTd, Aditya Birla Finance Ltd to access the credit bureaus and credit information report and credit score. You also hereby irrevocably and unconditionally consent to usage of such credit information being provided by credit bureaus.
+                  
                 </p>
               </div>
               <button type="button" onClick={handleSendOTP} className="send-otp-button">Request OTP</button>

@@ -55,7 +55,7 @@ function BusinessLoan() {
     { question: 'What is the qualification criteria for business loans?',  answer: (
       <>
         <p>
-          1. You can check out the lenders where your eligibility is matched from the <Link to="/businessloan">business loan eligibility form</Link>. 
+          1. You can check out the lenders where your eligibility is matched from the <a href="#">business loan eligibility form</a>. 
           You can also check your credit score from the <Link to="/creditscore">check credit score page</Link>.
         </p>
       </>
@@ -732,7 +732,7 @@ function BusinessLoan() {
             activeContainer !== "LendersList" && <NewHomeFooter />
           }
 
-{
+          {
             activeContainer !== "LendersList" && <CityForBl />
           }
           

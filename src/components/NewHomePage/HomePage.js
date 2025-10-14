@@ -97,7 +97,7 @@ function HomePage() {
               <h1>Welcome to CreditHaat</h1>
               <p className='textabout'>CreditHaat offers you the best loan offers from multiple Banks and NBFCs </p>
               <div>
-                <Link to="/personalLoan">
+                <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">
                   <button type="submit" className="btn-p" style={{ backgroundColor: "#3e2780", color: "#ffffff", padding: "10px" }}>Get started</button>
                 </Link>
               </div>
@@ -175,7 +175,7 @@ padding-top: 70px;
               <h1>Your ideal personal loan awaits</h1>
               <p>Find the lowest interest rate offers from our extensive network of banks and NBFCs.</p>
               <div>
-                <Link to="/personalLoan">
+                <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">
                   <button type="submit" className="btn1" style={{ backgroundColor: "#3e2780", color: "#ffffff", padding: "10px" }}>Get started</button>
                 </Link>
               </div>
@@ -202,7 +202,7 @@ padding-top: 70px;
               <h1>Business loans made easy</h1>
               <p>Loan with best terms to grow your business.</p>
               <div>
-                <Link to="/BusinessLoan">
+                <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">
                   <button type="submit" className="btn1" style={{ backgroundColor: "#3e2780", color: "#ffffff", padding: "10px" }}>Get started</button>
                 </Link>
               </div>

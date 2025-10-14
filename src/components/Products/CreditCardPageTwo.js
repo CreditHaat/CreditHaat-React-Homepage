@@ -57,15 +57,24 @@ function CreditCardPageTwo({ onPrevious, fetchData, setActiveContainer }) {
   };
   
   const handleSubmit=(e)=>{
-    if(validateForm){
+    e.preventDefault();
+    console.log("inside the handle submit")
+    if(validateForm()){
+      e.preventDefault();
+      console.log("inside the handle submit2")
       handleVerification(e);
       // setActiveContainer("creditCardLenders");
     }
   }
 
   const validateForm = () => {
+
+    console.log("INside the valdidate form");
+
     let valid = true;
     const newErrors = {};
+
+    console.log("formdata pincode is :: ",formData.pincode);
 
     if (!formData.pincode.trim() || formData.pincode.length !== 6) {
       newErrors.pincode = 'Pincode must be exactly 6 digits';
@@ -79,12 +88,12 @@ function CreditCardPageTwo({ onPrevious, fetchData, setActiveContainer }) {
       newErrors.monthlyincome = 'Monthly income should contain only digits';
       valid = false;
     }
-
+    
     if (!formData.employmenttype.trim()) {
       newErrors.employmenttype = 'Employment type is required';
       valid = false;
     }
-
+    
     if (showCompanyName && !formData.companyName.trim()) {
       newErrors.companyName = 'Company name is required';
       valid = false;
@@ -138,7 +147,7 @@ function CreditCardPageTwo({ onPrevious, fetchData, setActiveContainer }) {
         <div className="credit-card-c-col-md-6-cc">
           <div className="credit-card-c-form-container">
             <h2>Check eligibility in 2 steps</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={(e)=>handleSubmit(e)}>
               <div className="credit-card-c-form-group">
                 {/* Removed label and added placeholder */}
                 <input
@@ -197,8 +206,8 @@ function CreditCardPageTwo({ onPrevious, fetchData, setActiveContainer }) {
                   {errors.companyName && <div className="credit-card-c-invalid-feedback">{errors.companyName}</div>}
                 </div>
               )}
-              <div className="credit-card-c-button-container">
-                <button type="button" className="credit-card-c-prv-btn-btn-primary" onClick={onPrevious}> Previous</button>
+              <div className="credit-card-c-button-container" style={{textAlign:"center"}}>
+                {/* <button type="button" className="credit-card-c-prv-btn-btn-primary" onClick={onPrevious}> Previous</button> */}
                 <button type="submit" className="credit-card-c-btn-btn-primary">
                   Submit
                 </button>

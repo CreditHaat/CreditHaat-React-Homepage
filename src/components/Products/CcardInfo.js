@@ -14,17 +14,17 @@ function CcardInfo(){
             <div className="ploan-feature">
               <img src={ploaniagetwo} alt="Feature 1" />
               <h4>Better <br className='desktoponly'/>rewards</h4>
-              <p>Unlock exceptional rewards with our credit card, offering points on every purchase.</p>
+              <p>Unlock exceptional rewards with our credit card, offering points on every purchase through CreditHaat.</p>
             </div>
             <div className="ploan-feature">
               <img src={ploanimagethree} alt="Feature 2" />
               <h4>Quick and easy</h4>
-              <p>Hassle free online loan application process. Simple and paperless process with quick approvals.</p>
+              <p>Hassle free online loan application process. Simple and paperless process with quick approvals through CreditHaat.</p>
             </div>
             <div className="ploan-feature">
               <img src={ploanimagefour} alt="Feature 3" />
               <h4>Secure process</h4>
-              <p>Your personal and financial information is protected with stringent security measures.</p>
+              <p>Your personal and financial information is protected with stringent security measures through CreditHaat.</p>
             </div>
           </div>
         </div>

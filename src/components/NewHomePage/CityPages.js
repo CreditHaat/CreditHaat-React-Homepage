@@ -36,7 +36,7 @@ const CityPages = () => {
     { question: 'What is the qualification criteria for personal loans?',  answer: (
       <>
         <p>
-          1. You can check out the lenders where your eligibility is matched from the <Link to="/newploanproduct" className="no-underline-link" style={{ textDecoration: 'none' }}>personal loan eligibility form</Link>. 
+          1. You can check out the lenders where your eligibility is matched from the <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" className="no-underline-link" style={{ textDecoration: 'none' }}>personal loan eligibility form</Link>. 
           You can also check your credit score from the <Link to="/creditscore">check credit score page</Link>.
         </p>
       </>
@@ -187,10 +187,10 @@ return (
     <section className="city-sect">
     <div className="city-page-container">
       <div className="city-text-section">
-        <h1>Getting a personal loan in {cityDetails.city_name}</h1>
-        <p>Apply for personal loan up to ₹50 lacs in {cityDetails.city_name}</p>
-        <p>Minimum monthly income ₹20k | Instant approval|</p>
-        <Link to="/PersonalLoan">
+        <h1>Personal loan in {cityDetails.city_name}</h1>
+        <p>Apply for <b>personal loan</b> up to ₹50 lacs in <b>{cityDetails.city_name}</b></p>
+        <p>Minimum monthly income ₹20k | Instant approval |</p>
+        <Link to="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">
                 <button className="apply-button-city">Apply personal loan</button>
               </Link>
         <div className="safe-secure">
@@ -201,7 +201,7 @@ return (
                       <div className="image-container-city">
                           <img
                               src={cityDetails.image_url} // Replace with your city image path
-                              alt="City Image"
+                              alt={`Image for personal loan in ${cityDetails.city_name} from CreditHaat`}
                           />
                           <div className="gradient-overlay"></div>
                       </div>
@@ -226,7 +226,7 @@ return (
     </div>
 
       <div className="samecontent" style={{padding:"10px",color:"#000000a6"}}>
-              <p>This has led to an increased demand for <Link to='/PersonalLoan'>personal loans</Link> in {cityDetails.city_name} for needs as diverse as -</p>
+              <p>This has led to an increased demand for <Link to='https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney'>personal loans</Link> in {cityDetails.city_name} for needs as diverse as -</p>
               <ul className="samecitycontent">
                   <li>Wedding expenses</li>
                   <li>Home renovation and repairs</li>

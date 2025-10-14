@@ -1,0 +1,69 @@
+/* Base styles for desktop and larger screens */
+.sitemap2-container {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    color: #a99fc6;
+}
+
+h1 {
+    margin: 0;
+}
+
+.sitemap2 h2 {
+    color: #3e2780;
+}
+
+.sitemap2 h6 {
+    color: #007bff;
+}
+
+.sitemap2 {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li ul {
+    display: block; /* Show all submenus by default on desktop */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    li ul {
+        display: none; /* Hide submenus by default on mobile */
+    }
+
+    li.active ul {
+        display: block; /* Show submenu if parent is active */
+    }
+
+    /* Maintain hover effect on mobile */
+    li:hover ul {
+        display: block; /* Show submenu on hover for mobile as well */
+    }
+}

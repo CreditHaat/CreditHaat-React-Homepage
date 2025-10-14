@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 .emi-right h1{
-  font-size: 3rem;
+  font-size: 2rem;
   color: #3e2780;
   font-weight: normal;
 }
@@ -237,7 +237,7 @@ input[type="range"]::-webkit-slider-thumb {
       font-size: 18px;
     }
     .emi-right h1{
-      font-size: 28px;
+      font-size: 25px;
       color: #3e2780;
       font-weight: normal;
     }

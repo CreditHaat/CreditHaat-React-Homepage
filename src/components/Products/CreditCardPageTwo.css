@@ -91,7 +91,7 @@
     padding: 10px;
     width: 30%;
     border-radius: 5px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
   }
   
   .credit-card-c-btn-primary:hover {

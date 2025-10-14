@@ -565,9 +565,24 @@ mobilenumber: userPhoneNumber
         )}
 
         {activeContainer === 'creditCardLenders' && <CreditCardLenders/> }
-        <Members/>
-        <CcardInfo/>
-        <CcardEMI/>
+        
+
+        {
+          activeContainer !== 'creditCardLenders' &&
+          <Members/>
+        }
+        {
+          activeContainer !== 'creditCardLenders' &&
+          <CcardInfo/>
+        }
+        {
+          activeContainer !== 'creditCardLenders' &&
+          <CcardEMI/>
+        }
+
+       
+        
+        
  
 {/*--------------------------------------------3rd sect----------------------------------------*/}
         {/* <div className="credit-card-works">
@@ -590,8 +605,10 @@ mobilenumber: userPhoneNumber
             </div>
           </div>
         </div> */}
+        {
+          activeContainer !== 'creditCardLenders' &&
 
-{/*------------------------------------------faq---------------------------------------------* */}
+/*------------------------------------------faq---------------------------------------------* */
 <div className="faq-container-ccard" style={{padding:"20px"}}>
               <h1 className="faq-ccard">Frequently asked questions</h1>
                 {faqData.map((faq, index) => (
@@ -608,8 +625,14 @@ mobilenumber: userPhoneNumber
                     </div>
                 ))}
             </div>
+            
+          
+        }
 
- {/*-------------------------------Customer Reviews---------------------------------------*/}
+{
+          activeContainer !== 'creditCardLenders' &&
+
+ /*-------------------------------Customer Reviews---------------------------------------*/
  <section className="customer-reviews">
         <div className="customer-reviews-grid">
           {customerReviews.map((review, index) => (
@@ -624,8 +647,12 @@ mobilenumber: userPhoneNumber
           ))}
         </div>
       </section>
+}
 
-      {/*-----------------------Pagination Dots-----------------------------------------*/}
+{
+          activeContainer !== 'creditCardLenders' &&
+
+      /*-----------------------Pagination Dots-----------------------------------------*/
       <div className="pagination-dots text-center">
         {customerReviews.map((review, index) => (
           <span
@@ -635,11 +662,19 @@ mobilenumber: userPhoneNumber
           ></span>
         ))}
       </div>
+}
 
-        <Partnerlist />
+{
+          activeContainer !== 'creditCardLenders' &&
+
+        <Partnerlist />}
         <div>
-          <NewHomeFooter />
-          <NewCityFooter />
+        {
+          activeContainer !== 'creditCardLenders' &&
+          <NewHomeFooter />}
+                  {
+          activeContainer !== 'creditCardLenders' &&
+          <NewCityFooter />}
         </div>
       </div>
     </>

@@ -44,8 +44,13 @@ function PLoanThirdPage({ onPrevious, mainFormData, getLendersList, setIsLoading
   };
 
   const validateEmail = (email) => {
-    // Regular expression for email validation with max length 30 characters
-    return /^[A-Za-z0-9._%+-]{1,30}@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$/i.test(email);
+    // Regular expression to validate the email format
+    // 1. Local part (before @) allows alphanumeric characters and some special characters (._%+-) but not '!'
+    // 2. Domain part (after @) allows alphanumeric characters and hyphens
+    // 3. Top-level domain must be at least two letters
+    const emailPattern = /^[A-Za-z0-9._%+-]{1,30}@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+  
+    return emailPattern.test(email);
   };
 
   const handleSubmit = (e) => {
@@ -53,16 +58,16 @@ function PLoanThirdPage({ onPrevious, mainFormData, getLendersList, setIsLoading
 
     const newErrors = {};
 
-    // Validate Email
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
-    } else if (!validateEmail(formData.email)) {
-      newErrors.email = 'Invalid email format';
-    }
+      // Validate Email
+      if (!formData.email.trim()) {
+        newErrors.email = 'Email is required';
+      } else if (!validateEmail(formData.email.trim())) {
+        newErrors.email = 'Invalid email format';
+      }
 
     // Validate Company Name
     if (!formData.companyName.trim()) {
-      newErrors.companyName = 'Company Name is required';
+      newErrors.companyName = 'Company name is required';
     }
 
     // Validate Office Pincode
@@ -220,11 +225,8 @@ function PLoanThirdPage({ onPrevious, mainFormData, getLendersList, setIsLoading
             </form>
 
             {/* Error message for empty fields */}
-            {Object.keys(errors).length > 0 && (
-              <div className="spploan-invalid-feedback" style={{ color: 'red' }}>
-                Please fill out all required fields.
-              </div>
-            )}
+          
+            
           </div>
         </div>
       </div>

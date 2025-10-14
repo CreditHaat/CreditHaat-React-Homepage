@@ -17,10 +17,10 @@ const Footer = () => {
               <a class="footer-link_item" href="/personal">Personal loan</a>
             </li> */}
             <li class="footer-link_item">
-              <a class="footer-link_item" href="/business">Business loan</a>
+              <a class="footer-link_item" href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney">Business loan</a>
             </li>
             <li class="footer-link_item">
-              <a class="footer-link_item" href="/credit">Credit card</a>
+              <a class="footer-link_item" href="/credit">Credit cards</a>
             </li>
             <li class="footer-link_item">
               <a class="footer-link_item" href="/upcoming">Upcoming products</a>
@@ -45,6 +45,9 @@ const Footer = () => {
             <li class="footer-link_item">
               <a class="footer-link_item" href="score">Credit score</a>
             </li>
+              <li class="footer-link_item">
+              <a class="footer-link_item" href="https://sachet.rbi.org.in/">RBI Sachet Portal</a>
+            </li>
           </ul>
         </div>
         <div class="col-6 col-sm-3 col-lg-2">
@@ -66,7 +69,7 @@ const Footer = () => {
     <div class="copy-right container">
       <div class="row">
         <div class="col-sm">
-          &#169;2022 CreditHaat.
+          &#169;2025 CreditHaat.
         </div>
         <div class="col-sm">All righs reserved
         </div>

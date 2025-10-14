@@ -57,11 +57,14 @@ function BusinessLoanPageFour({ onNext, onPrevious, mainFormData, setIsLoadingfo
         newErrors.monthlyIncome = 'Monthly income must be a number';
       }
 
-    if (!loanAmount.trim()) {
-      newErrors.loanAmount = 'Loan amount is required';
-    } else if (isNaN(loanAmount)) {
-      newErrors.loanAmount = 'Loan amount must be a number';
-    }
+      // Validate Loan Amount
+      if (!formData.loanAmount.trim()) {
+        newErrors.loanAmount = 'Loan amount is required';
+      } else if (isNaN(loanAmount)) {
+        newErrors.loanAmount = 'Loan amount must be a number';
+      } else if (loanAmount < 10000) {
+        newErrors.loanAmount = 'Loan amount must be greater than or equal to 10,000';
+      }
 
     if (!employmentType.trim()) {
       newErrors.employmentType = 'Employment type is required';

@@ -282,14 +282,10 @@ const BLoanEMI = () => {
                 />
               </div>
             </div>
-
-            <button className="emibutton" onClick={updateChartData}>
-              Calculate
-            </button>
           </div>
 
           <div className="emi-right">
-            <h1>EMI Calculator</h1>
+            <h1>EMI calculator for business loan</h1>
             <div className="chart-container">
               <canvas ref={chartRef} />
             </div>
