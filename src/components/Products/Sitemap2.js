@@ -289,7 +289,7 @@ const Sitemap2 = () => {
           <h2>Footer</h2>
           <ul>
          
-            <li><a href="/NewAllPartners">Lending partners</a></li>
+            <li><a href="/lendingpartners">Lending partners</a></li>
             <li><a href="/acq">Acquisition partner</a></li>
             <li><a href="/gro">Grievance redressal process</a></li>
             <li><a href="/CreditScore">Credit score</a></li>

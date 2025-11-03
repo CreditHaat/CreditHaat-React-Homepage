@@ -110,7 +110,7 @@ const privacy = () => {
                     <h2>Disclosure / sharing:</h2>
                     <p>(i) CreditHaat does not disclose PI of a customer except as directed by law or as consent received from the customer / applicant. No specific information about customer accounts or other personally identifiable data is shared with third parties unless any one of the following conditions is met:</p>
                     <p>1. To help complete a transaction initiated by you;</p>
-                    <p>2. To perform support services through a third-party service provider (such as Banks, NBFCs, Digital Lenders or other financial services providers), provided it conforms to the Privacy Policy of the CreditHaat;</p>
+                    <p>2. To perform support services through a third-party service provider (such as Banks, NBFCs, Digital Lenders or other financial services providers), provided it conforms to the Privacy Policy of the CreditHaat. CreditHaat uses the collected information in the following manner to match your profile with the eligible service providers (lending partners) - <a href="/selectioncriteria" target="_blank">https://www.credithaat.com/selectioncriteria</a>. Further our list of lending partners can be found here - <a href='/lendingpartners'>https://www.credithaat.com/lendingpartners</a></p>
                     <p>3. You have specifically authorized it by accepting the General Terms of Use of the Website or otherwise;</p>
                     <p>4. Where the disclosure is necessary for compliance of a legal obligation or as required by law, such as to comply with a subpoena, or similar legal process;</p>
                     <p>5. When we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</p>
@@ -188,8 +188,7 @@ const privacy = () => {
             </div>
             <NewHomePageFooter/>
             <NewCityFooter/>
-
-                    
+  
                     </>
                     );
                     }

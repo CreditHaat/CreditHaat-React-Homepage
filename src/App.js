@@ -24,6 +24,7 @@ import CreditScoreSecondPage from './components/NewHomePage/CreditScoreSecondPag
 import NewAllPartners from './components/Products/NewAllPartners';
 import Sitemap2 from './components/Products/Sitemap2';
 import ExperianTerms from './components/NewHomePage/experianTerms';
+import SelectionCriteria from './components/NewHomePage/SelectionCriteria';
 // import PLoanSecondPage from './components/Products/PLoanSecondPage';
 // import PLoanThirdPage from './components/Products/PLoanThirdPage';
 // import BusinessLoanPageTwo from './components/Products/BusinessLoanPageTwo';
@@ -48,6 +49,7 @@ function App() {
         <Route path="/CreditScore" element={<CreditScore />} />
         <Route path="/technicalError" element={<TechnicalErrorPage />} />
         {/* <Route path="/PersonalLoanCity" element={<CityPages />} /> */}
+        <Route path="/selectioncriteria" element={<SelectionCriteria />} />
         <Route path="/cityinfo" element={<CityPageInfo />} />
         <Route path="/PersonalLoan" element={<PersonalLoanProduct />} />
         <Route path="/BusinessLoan" element={<BusinessLoan />} />
@@ -57,7 +59,7 @@ function App() {
         <Route path="/moreinfo" element={<MoreInformation />} />
         <Route path="/plinfo" element={<PersonalLoanInfo />} />
         <Route path="/hiw" element={<HowItWorks />} />
-        <Route path="/NewAllPartners" element={<NewAllPartners/>}/>
+        <Route path="/lendingpartners" element={<NewAllPartners/>}/>
         <Route path="/experianTerms" element={<ExperianTerms/>}/>
         
 
