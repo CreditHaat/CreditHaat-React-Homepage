@@ -572,9 +572,6 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare Mail : care@earlysalary.com  
                     <br />
-                    Loans on Fibe are provided by RBI regulated NBFCs - a
-                    complete list can be found on -
-                    <a href="https://www.earlysalary.in" target="_blank" rel="noopener noreferrer">www.earlysalary.in</a>
                     </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -860,9 +857,6 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare: 9696555444,cs@indifi.com
                     <br />
-                    Loans on Indifi are provided by RBI regulated NBFCs - a
-                    complete list along with the lender’s details can be found
-                    on the following link - https://www.indifi.com
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -922,9 +916,6 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare: 080-44292200,help@kreditbee.in
                     <br />
-                    Loans on KreditBee are provided by RBI regulated NBFCs - a
-                    complete list along with the lender’s details can be found
-                    on the following link - https://www.kreditbee.in/grievance-
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1006,9 +997,6 @@ function NewAllPartners({ companies }) {
                     <br/>
                     Timings: 9:00AM to 6:00PM (Monday to Friday - Excluding public holidays)
                     <br/>
-                    Loans on MoneyView are provided by RBI regulated NBFCs - a
-                    complete list can be found here -
-                    <a href="https://moneyview.in/our-lending-partners">https://moneyview.in/our-lending-partners</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1145,9 +1133,6 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare: support@nirafinance.com
                     <br />
-                    Loans on NIRA are provided by RBI regulated NBFCs - a
-                    complete list along with the lender’s details can be found
-                    on the following link - https://nirafinance.com/#partners
                   </div>
                 </DialogContent>
               </BootstrapDialog>
