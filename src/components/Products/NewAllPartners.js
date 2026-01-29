@@ -1421,7 +1421,8 @@ function NewAllPartners({ companies }) {
             <p>RupeeReddy</p> 
             </div>
            <div className='secondonetext'>
-           <p>Amount range: ₹20,000-₹5,00,000</p>
+           {/* <p>Amount range: ₹20,000-₹5,00,000</p> */}
+           <p>Amount range: ₹2,000-₹1,49,000</p>
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>

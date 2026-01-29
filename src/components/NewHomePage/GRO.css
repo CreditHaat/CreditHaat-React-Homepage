@@ -103,4 +103,78 @@
         font-size: 18px;
         color: #000000a6;
     }
+
+
   }
+
+
+  /* ============================= */
+/* GRO Escalation Table Styling  */
+/* ============================= */
+
+/* Table styling exactly like Word doc */
+.gro-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.gro-table td {
+  border: 1px solid #000;
+  padding: 10px;
+  vertical-align: top;  
+  font-size: 1.6rem;
+  color: #3e2780;
+  
+}
+
+.gro-table th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #fff;
+}
+
+.gro-table a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Escalation text */
+.gro-escalation-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.gro-escalation-text {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #000000a6;
+}
+
+/* ============================= */
+/* Mobile Friendly Adjustments   */
+/* ============================= */
+
+@media (max-width: 767px) {
+  .gro-wrapper {
+    padding: 15px;
+  }
+  .gro-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+  .gro-wrapper h1 {
+    font-size: 22px;
+  }
+
+  .gro-intro {
+    font-size: 15px;
+  }
+
+  .gro-table td
+      {font-size: 1.6rem;
+        color: #3e2780;
+  }
+}
