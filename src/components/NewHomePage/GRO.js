@@ -35,10 +35,18 @@ const gro = () => {
             <tr>
               <td colSpan="1" >Level 1</td>
             </tr>
+
             <tr>
               <td> <div className="content-of-gro">
+
                     <h2 style={{fontWeight:"normal"}}>Vibhuprada services private limited</h2>
-                    <p>Office No.  7 to 12, 7th Floor, Building-B,<br></br>Downtown City Vista, Kharadi,<br></br>Kharadi Pune, Pincode - 411014.</p>
+                    <h2 style={{fontWeight:"normal"}} onClick={() => window.open(`mailto:support@credithaat.com`, '_blank')}>Mail : <span className="additional-info">support@credithaat.com</span></h2>
+
+                    <h2 style={{fontWeight:"normal"}}>Office address : <span className="additional-info"> Office No. 7 to 12, Buildinng-B, Downtown City Vista, Kharadi, Pune, Pincode - 411014</span></h2>
+
+                    {/* <p>Office No.  7 to 12, 7th Floor, Building-B,<br></br>Downtown City Vista, Kharadi,<br></br>Kharadi Pune, Pincode - 411014.</p> */}
+                    <h2 style={{fontWeight:"normal"}}>TAT : <span className="additional-info"> 5 business working days</span></h2>
+
                 </div>
                 </td>
               {/* <td>
@@ -84,6 +92,8 @@ const gro = () => {
 
                     <h2 style={{fontWeight:"normal"}}>Designation : <span className="additional-info">  GRO</span></h2>
                     <h2 style={{fontWeight:"normal"}}>Office address : <span className="additional-info"> Office No. 7 to 12, Buildinng-B, Downtown City Vista, Kharadi, Pune, Pincode - 411014</span></h2>
+                    <h2 style={{fontWeight:"normal"}}>TAT : <span className="additional-info"> 10 business working days</span></h2>
+
                 </div>
             </td>
             </tr>
@@ -105,6 +115,11 @@ const gro = () => {
             <tr>
               <td> <div className="content-of-gro">
                     <h2 style={{fontWeight:"normal"}} onClick={() => window.open(`mailto:management@credithaat.com`, '_blank')}>Mail : <span className="additional-info">management@credithaat.com</span></h2>
+                    <h2 style={{fontWeight:"normal"}}>Designation : <span className="additional-info"> Principal Nodal Officer</span></h2>
+                    <h2 style={{fontWeight:"normal"}}>Office address : <span className="additional-info"> Office No. 7 to 12, Buildinng-B, Downtown City Vista, Kharadi, Pune, Pincode - 411014</span></h2>
+                    <h2 style={{fontWeight:"normal"}}>TAT : <span className="additional-info"> 30 business working days</span></h2>
+
+
                 </div>
                 </td>
               {/* <td>
