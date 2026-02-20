@@ -25,6 +25,8 @@ import NewAllPartners from './components/Products/NewAllPartners';
 import Sitemap2 from './components/Products/Sitemap2';
 import ExperianTerms from './components/NewHomePage/experianTerms';
 import SelectionCriteria from './components/NewHomePage/SelectionCriteria';
+
+import Hdfc  from './components/Products/hdfc';
 // import PLoanSecondPage from './components/Products/PLoanSecondPage';
 // import PLoanThirdPage from './components/Products/PLoanThirdPage';
 // import BusinessLoanPageTwo from './components/Products/BusinessLoanPageTwo';
@@ -73,11 +75,16 @@ function App() {
 
         {/* Dynamic Route for PersonalLoan with citypages */}
         <Route path="/BusinessLoanCity/:city" element={<BlCityPage/>} />
+
+        <Route path="/lendingpartners/hdfc" element={<Hdfc/>} />
         
         {/* Catch-all route for 404 */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
         {/* Catch-all route for 404 */}
         <Route path="/Sitemap" element={<Sitemap2/>} />
+
+
+
 
 
 {/* *------------testing pages--------------

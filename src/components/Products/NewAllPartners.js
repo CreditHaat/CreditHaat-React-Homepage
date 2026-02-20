@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
+
 import './NewAllPartners.css'; // Ensure this file is correctly imported and styled
 import pimage from "../NewHomePage/NewHomePageImages/allpartnerimage.png";
 // import creditimage from "../NewHomePage/NewHomePageImages/creditimage.png";
@@ -58,6 +60,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import NavBar from '../NewHomePage/NavBar';
 import NewCityFooter from '../NewHomePage/newCityFooter';
 import NewHomePageFooter from '../NewHomePage/NewHomePageFooter';
+
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     "& .MuiDialogContent-root": {
@@ -2303,8 +2306,19 @@ function NewAllPartners({ companies }) {
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=MRTB&DSAcode=XVBP&LGcode=VP1&LCcode=VP2&LC2=VP1&SMcode=U2303#nbb'>Apply now</a></button><span>
-           <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button></span>
-           <BootstrapDialog
+           {/* <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button></span> */}
+           <Link 
+              to="/lendingpartners/hdfc" 
+              style={{ textDecoration: "none" }}
+            >
+              <button className="secondonebutton">
+                Know more
+              </button>
+            </Link>
+            </span>
+
+
+           {/* <BootstrapDialog
                 onClose={handleClose}
                 aria-labelledby="customized-dialog-title"
                 open={open47}
@@ -2336,12 +2350,12 @@ function NewAllPartners({ companies }) {
                     <br />
                     Contact Number : 1800 266 4060
                     <br />
-                    Email:  grievance.redressaldl@hdfcbank.com
+                    Email:  grievance.redressaldl@hdfcbank.com */}
 
                     <br />
-                  </div>
-                </DialogContent>
-              </BootstrapDialog>
+
+                {/* </DialogContent> */}
+              {/* </BootstrapDialog> */}
            </div>
         </div>
         </div>
