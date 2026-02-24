@@ -1015,9 +1015,8 @@ function NewAllPartners({ companies }) {
             <p>mPokket</p> 
             </div>
            <div className='secondonetext'>
-           <p>Amount range:₹1,000-₹50,000</p>
-           <p>   Features:Short Term Personal Loans</p>
-           
+           <p>Amount range: ₹1,000-₹2,00,000</p>
+           <p>Features:Short Term Personal Loans</p>
            <div className='anothertext'>
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
@@ -2307,7 +2306,15 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=MRTB&DSAcode=XVBP&LGcode=VP1&LCcode=VP2&LC2=VP1&SMcode=U2303#nbb'>Apply now</a></button><span>
            {/* <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button></span> */}
-           <Link 
+           
+            <button className="secondonebutton"><a
+                  style={{ textDecoration: "none", color: "white" }}
+                  href="https://www.hdfc.bank.in/important-messages/product-features-and-policy?icid=website_organic_footer_others:link:digitallendingimportantlinks"
+                >
+                  Know more
+                </a></button>
+                </span>
+           {/* <Link 
               to="/lendingpartners/hdfc" 
               style={{ textDecoration: "none" }}
             >
@@ -2315,7 +2322,7 @@ function NewAllPartners({ companies }) {
                 Know more
               </button>
             </Link>
-            </span>
+            </span> */}
 
 
            {/* <BootstrapDialog

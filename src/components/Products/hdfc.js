@@ -47,6 +47,46 @@ const Hdfc = () => {
                      <br/>
                      <h2 style={{fontWeight:"normal"}}>Complaint Management System (CMS) portal under the Reserve Bank-Integrated Ombudsman Scheme (RB-IOS) : <span className="additional-hdfc-info"> <a href="https://cms.rbi.org.in/cms/indexpage.html#eng" target='_blank' >https://cms.rbi.org.in/cms/indexpage.html#eng</a></span></h2>
               <br/>
+
+                     <h2 style={{fontWeight:"normal"}}>Product Features :</h2>
+                    <br/>
+                    <h2 style={{fontWeight:"normal"}}>Loan on Credit Cards-Important Links : <span className="additional-hdfc-info"> <a href="https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/useful-links/important-messages/product-features-and-policy/loan-on-credit-card.pdf" target='_blank' >https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/useful-links/important-messages/product-features-and-policy/loan-on-credit-card.pdf</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Personal Loan Product & Feature : <span className="additional-hdfc-info"> <a href="https://www.hdfc.bank.in/personal-loan" target='_blank' >https://www.hdfc.bank.in/personal-loan</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Salary Plus Product & Feature : <span className="additional-hdfc-info"> <a href="https://www.hdfc.bank.in/salary-plus" target='_blank' >https://www.hdfc.bank.in/salary-plus</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Business Loan Product & Feature : <span className="additional-hdfc-info"> <a href="https://www.hdfc.bank.in/business-loan" target='_blank' >https://www.hdfc.bank.in/business-loan</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Professionals Product & Features : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/business-loan/loan-for-professionals" target='_blank' >https://www.hdfc.bank.in/business-loan/loan-for-professionals</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Loan Against property : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/loan-against-property" target='_blank' >https://www.hdfc.bank.in/loan-against-property</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Loan against Securities Product & Feature : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/loan-against-securities" target='_blank' >https://www.hdfc.bank.in/loan-against-securities</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Loan against Mutual Fund Product & Feature : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/digital-loan-against-mutual-funds" target='_blank' >https://www.hdfc.bank.in/digital-loan-against-mutual-funds</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Auto Loan Feature : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/car-loan" target='_blank' >https://www.hdfc.bank.in/car-loan</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Two Wheeler Loan Feature : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/two-wheeler-loan" target='_blank' >https://www.hdfc.bank.in/two-wheeler-loan</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Super Bike Loan Feature : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/super-bike-loan" target='_blank' >https://www.hdfc.bank.in/super-bike-loan</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Overdraft Against Fixed Deposits : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/fixed-deposit/overdraft-against-fixed-deposits" target='_blank' >https://www.hdfc.bank.in/fixed-deposit/overdraft-against-fixed-deposits</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Cardless EasyEMI : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/easyemi" target='_blank' >https://www.hdfc.bank.in/easyemi</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>EasyEMI On Debit Card : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/easyemi/debit-card" target='_blank' >https://www.hdfc.bank.in/easyemi/debit-card</a></span></h2>
+                     <br/>                    
+                     <h2 style={{fontWeight:"normal"}}>Xpress Top-up Home Loan : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/home-loan/top-up" target='_blank' >https://www.hdfc.bank.in/home-loan/top-up</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>Gold Loan Top Up : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/gold-loan/top-up-loan" target='_blank' >https://www.hdfc.bank.in/gold-loan/top-up-loan</a></span></h2>
+                     <br/>
+                     <h2 style={{fontWeight:"normal"}}>GST OD : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/msme-banking/business-overdraft-loan/gst-overdraft-loan" target='_blank' >https://www.hdfc.bank.in/msme-banking/business-overdraft-loan/gst-overdraft-loan</a></span></h2>
+                     <br/>
+                    <h2 style={{fontWeight:"normal"}}>OD Dukandar : <span className="additional-hdfc-info"><a href="https://www.hdfc.bank.in/msme-banking/business-overdraft-loan/dukandar-overdraft-facility" target='_blank' >https://www.hdfc.bank.in/msme-banking/business-overdraft-loan/dukandar-overdraft-facility</a></span></h2>
+                     <br/>
+
                 </div>
         </div>
       </div>
