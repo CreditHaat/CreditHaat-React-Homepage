@@ -879,9 +879,14 @@ function NewAllPartners({ companies }) {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://loan.credithaat.com/h5/kreditbee'>Apply now</a></button><span>
+           href='https://a.krdt.be/02Je/chapi'>Apply now</a>
+           {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://loan.credithaat.com/h5/kreditbee'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen4}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
