@@ -10,12 +10,12 @@ import fibeimage from "../NewHomePage/NewHomePageImages/fibeimage.png";
 import finnableimage from "../NewHomePage/NewHomePageImages/finnableimage.png";
 import finzyimage from "../NewHomePage/NewHomePageImages/finzyimage.png";
 import flexiloansimage from "../NewHomePage/NewHomePageImages/flexiloansimage.png";
-import fullertonimage from "../NewHomePage/NewHomePageImages/fullertonimage.png";
+// import fullertonimage from "../NewHomePage/NewHomePageImages/fullertonimage.png";
 import homecreditimage from "../NewHomePage/NewHomePageImages/homecreditimage.png";
 import iiflblimage from "../NewHomePage/NewHomePageImages/iiflblimage.png";
 import iiflplimage from "../NewHomePage/NewHomePageImages/iiflplimage.png";
 import incredimage from "../NewHomePage/NewHomePageImages/incredimage.png";
-import indifiimage from "../NewHomePage/NewHomePageImages/indifiimage.png";
+// import indifiimage from "../NewHomePage/NewHomePageImages/indifiimage.png";
 import kreditbeeimage from "../NewHomePage/NewHomePageImages/kreditbeeimage.png";
 import moneytapimage from "../NewHomePage/NewHomePageImages/moneytapimage.png";
 import moneyviewimage from "../NewHomePage/NewHomePageImages/moneyviewimage.png";
@@ -135,6 +135,43 @@ function NewAllPartners({ companies }) {
   const [open52, setOpen52] = useState(false);
   const [open53, setOpen53] = useState(false);
   const [open54, setOpen54] = useState(false);
+  const [open55, setOpen55] = useState(false);
+  const [open56, setOpen56] = useState(false);
+  const [open57, setOpen57] = useState(false);
+  const [open58, setOpen58] = useState(false);
+  const [open59, setOpen59] = useState(false);
+  const [open60, setOpen60] = useState(false);
+  const [open61, setOpen61] = useState(false);
+  const [open62, setOpen62] = useState(false);
+  const [open63, setOpen63] = useState(false);
+  const [open64, setOpen64] = useState(false);
+  const [open65, setOpen65] = useState(false);
+  const [open66, setOpen66] = useState(false);
+  const [open67, setOpen67] = useState(false);
+  const [open68, setOpen68] = useState(false);
+  const [open69, setOpen69] = useState(false);
+  const [open70, setOpen70] = useState(false);
+  const [open71, setOpen71] = useState(false);
+  const [open72, setOpen72] = useState(false);
+  const [open73, setOpen73] = useState(false);
+  const [open74, setOpen74] = useState(false);
+  const [open75, setOpen75] = useState(false);
+  const [open76, setOpen76] = useState(false);
+  const [open77, setOpen77] = useState(false);
+  const [open78, setOpen78] = useState(false);
+   const [open79, setOpen79] = useState(false);
+  const [open80, setOpen80] = useState(false);
+  const [open81, setOpen81] = useState(false);
+  const [open82, setOpen82] = useState(false);
+   const [open83, setOpen83] = useState(false);
+  const [open84, setOpen84] = useState(false);
+  const [open85, setOpen85] = useState(false);
+  const [open86, setOpen86] = useState(false);
+  const [open87, setOpen87] = useState(false);
+   const [open88, setOpen88] = useState(false);
+  const [open89, setOpen89] = useState(false);
+  const [open90, setOpen90] = useState(false);
+
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -237,9 +274,118 @@ function NewAllPartners({ companies }) {
   const handleClickOpen53 = () => {
     setOpen53(true);
   };
-  const handleClickOpen54 = () => {
+    const handleClickOpen54 = () => {
     setOpen54(true);
   };
+  const handleClickOpen55 = () => {
+    setOpen55(true);
+  };
+  const handleClickOpen56 = () => {
+    setOpen56(true);
+  };
+  const handleClickOpen57 = () => {
+    setOpen57(true);
+  };
+
+   const handleClickOpen58 = () => {
+    setOpen58(true);
+  };
+  const handleClickOpen59 = () => {
+    setOpen59(true);
+  };
+  const handleClickOpen60 = () => {
+    setOpen60(true);
+  };
+  const handleClickOpen61 = () => {
+    setOpen61(true);
+  };
+  const handleClickOpen62 = () => {
+    setOpen62(true);
+  };
+  const handleClickOpen63 = () => {
+    setOpen63(true);
+  };
+    const handleClickOpen64 = () => {
+    setOpen64(true);
+  };
+    const handleClickOpen65 = () => {
+    setOpen65(true);
+  };
+    const handleClickOpen66 = () => {
+    setOpen66(true);
+  };
+  const handleClickOpen67 = () => {
+    setOpen67(true);
+  };
+const handleClickOpen68 = () => {
+    setOpen68(true);
+};
+const handleClickOpen69 = () => {
+    setOpen69(true);
+};
+const handleClickOpen70 = () => {
+    setOpen70(true);
+};
+const handleClickOpen71 = () => {
+    setOpen71(true);
+};
+const handleClickOpen72 = () => {
+    setOpen72(true);
+};
+const handleClickOpen73 = () => {
+    setOpen73(true);
+};
+const handleClickOpen74 = () => {
+    setOpen74(true);
+};
+const handleClickOpen75 = () => {
+    setOpen75(true);
+};
+const handleClickOpen76 = () => {
+    setOpen76(true);
+};
+const handleClickOpen77 = () => {
+    setOpen77(true);
+};
+const handleClickOpen78 = () => {
+    setOpen78(true);
+};
+const handleClickOpen79 = () => {
+    setOpen79(true);
+};
+const handleClickOpen80 = () => {
+    setOpen80(true);
+};
+const handleClickOpen81 = () => {
+    setOpen81(true);
+};
+const handleClickOpen82 = () => {
+    setOpen82(true);
+};
+const handleClickOpen83 = () => {
+    setOpen83(true);
+};
+const handleClickOpen84 = () => {
+    setOpen84(true);
+};
+const handleClickOpen85 = () => {
+    setOpen85(true);
+};
+const handleClickOpen86 = () => {
+    setOpen86(true);
+};
+const handleClickOpen87 = () => {
+    setOpen87(true);
+};
+const handleClickOpen88 = () => {
+    setOpen88(true);
+};
+const handleClickOpen89 = () => {
+    setOpen89(true);
+};
+const handleClickOpen90 = () => {
+    setOpen90(true);
+};  
   const handleClose = () => {
     setOpen(false);
     setOpen1(false);
@@ -275,9 +421,42 @@ function NewAllPartners({ companies }) {
     setOpen52(false);
     setOpen53(false);
     setOpen54(false);
-
-
-
+    setOpen55(false);
+    setOpen56(false);
+    setOpen57(false);
+    setOpen58(false);
+    setOpen59(false);
+    setOpen60(false);
+    setOpen61(false);
+    setOpen62(false);
+    setOpen63(false);
+    setOpen64(false);
+    setOpen65(false);
+    setOpen66(false);
+    setOpen67(false);
+    setOpen68(false);
+    setOpen69(false);
+    setOpen70(false);
+    setOpen71(false);
+    setOpen72(false);
+    setOpen73(false);
+    setOpen74(false);
+    setOpen75(false);
+    setOpen76(false);
+    setOpen77(false);
+    setOpen78(false);
+    setOpen79(false);
+    setOpen80(false);
+    setOpen81(false);
+    setOpen82(false);
+    setOpen83(false);
+    setOpen84(false);
+    setOpen85(false);
+    setOpen86(false);
+    setOpen87(false);
+    setOpen88(false);
+    setOpen89(false);
+    setOpen90(false);
   };
 
     return (
@@ -351,13 +530,16 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: L&T Finance
                     <br />
-                    Tel: 1800 270 7000
+                    Tel: 1800 1020 476
                     <br />
                     Email: gro@ltfs.com
                     <br />
                     CustomerCare: customercare@ltfs.com
                     <br />
-                    www.ltfs.com | https://sachet.rbi.org.in/
+                    {/* www.ltfs.com | https://sachet.rbi.org.in/ */}
+                    <a href="www.ltfs.com">www.ltfs.com</a> | <a href="https://sachet.rbi.org.in/">https://sachet.rbi.org.in/</a>
+                    <br/>
+                    GRO link: <a href="https://www.ltfinance.com/grievance-redressal">https://www.ltfinance.com/grievance-redressal</a>
                     <br/>
                   </div>
                 </DialogContent>
@@ -417,11 +599,11 @@ function NewAllPartners({ companies }) {
                     <br />
                     Tel: +918045860196
                     <br />
-                    Email:
-                    grievance.finance@adityabirlacapital.com
+                    Email: grievance.finance@adityabirlacapital.com
                     <br />
                     CustomerCare: care.finance@adityabirlacapital.com
                     <br />
+                    GRO link: <a href='https://www.adityabirlacapital.com/loans/grievance-form'>https://www.adityabirlacapital.com/loans/grievance-form</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -481,6 +663,8 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare: care.finance@adityabirlacapital.com
                     <br />
+                    GRO link: <a href='https://www.adityabirlacapital.com/loans/grievance-form'>https://www.adityabirlacapital.com/loans/grievance-form</a>
+
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -552,6 +736,7 @@ function NewAllPartners({ companies }) {
                     <br/>
                     Processing Fee : Upto 5.5%
                     <br/>
+                    GRO Link: <a href='https://www.cashe.co.in/contact-us/'>https://www.cashe.co.in/contact-us/</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -617,6 +802,7 @@ function NewAllPartners({ companies }) {
                     <br />
                     CustomerCare Mail : care@earlysalary.com  
                     <br />
+                    <a href='https://www.earlysalary.in/grievance-redressal/'>https://www.earlysalary.in/grievance-redressal/</a>
                     </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -644,9 +830,46 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/finnable'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.finnable.com/grievance-redressal-policy/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open47}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Mr. Akshay Raja<br />
+                    Company name: Finnable Technologies Private Limited
+                    <br />
+                    Address:Indiqube Edge, 2nd Floor, SY, 4, 6/4, Plot NO 571/630, <br/>Outer Ring Rd, Ambalipura, Bellandur, Bengaluru, Karnataka 560103
+                    <br/>
+                    Email: gro@finnable.com
+                    <br />
+                    Contact phone: 9900119762
+                    <br />
+                    GRO link - <a href='https://www.finnable.com/grievance-redressal-policy/'>https://www.finnable.com/grievance-redressal-policy/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -671,9 +894,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/finzy'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://finzy.com/contactus'>know more</a></button></span>
+                       <button className="secondonebutton" onClick={handleClickOpen55}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open55}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Sunil S
+                    <br />
+                    Company name: Bridge Fintech Solutions Private Limited
+                    <br />
+                    Contact phone: 9513330562
+                    <br />
+                    Email: grievances@finzy.com
+                    <br />
+                    CustomerCare: 9341300300 ,support@finzy.com
+                    <br />
+                    GRO link: <a href='https://finzy.com/contactus'>https://finzy.com/contactus</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -720,19 +981,20 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer: Mr. Manish Lunia
+                    GrievanceRedressalOfficer: Ms. Pranaali Sawant
                     <br />
                     Company name: Epimoney Private Limited
                     <br />
-                    Tel: 022-62603800
+                    Tel: 8879758863
                     <br />
-                    Email: compliance@epimoney.com ,
-                    nodal.grievance@epimoney.com
+                    Email: nodal.grievance@epimoney.com
                     <br />
-                    CustomerCare: 02268219595 ,connect@flexiloans.com
+                    CustomerCare: 022-68219595  ,myaccount@flexiloans.com
                     <br />
-                    Link- https://flexiloans.com/co-lenders , privacy policy
-                    link - https://flexiloans.com/regulatory
+                    Link- <a href='https://flexiloans.com/co-lenders'>https://flexiloans.com/co-lenders</a>  , privacy policy
+                    link - <a href='https://flexiloans.com/regulatory'>https://flexiloans.com/regulatory</a>
+                    <br/>
+                    GRO link: <a href='https://flexiloans.com/grievance-redressal-mechanism'>https://flexiloans.com/grievance-redressal-mechanism</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -742,30 +1004,6 @@ function NewAllPartners({ companies }) {
 
         {/* --------------------------------8----------------------------------------------- */}
 
-        <div className='newallfirst'>
-            <div className='firstoneimage'>
-            <img src={fullertonimage} alt='Lenderimage'></img>
-            <p>  Fullerton</p> 
-            </div>
-           <div className='secondonetext'>
-           <p> Amount range:₹50,000 - ₹5,00,000</p>
-           <p> Features: Personal Loans for Salaried Individuals</p>
-           
-           <div className='anothertext'>
-           <button className="firstonebutton">
-            <a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.fullertonfinancial.com/'>Apply now</a>
-            {/* <a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://loan.credithaat.com/h5/fullerton'>Apply now</a> */}
-           </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.fullertonfinancial.com/contact'>Know more</a></button></span>
-           </div>
-        </div>
-        </div>
 
         {/* --------------------------------9----------------------------------------------- */}
 
@@ -787,9 +1025,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/hci'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.homecredit.co.in/en/contact-us'>Know more</a></button></span>
+           <button className="secondonebutton" onClick={handleClickOpen56}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open56}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Vishal Sharma
+                    <br />
+                    Company name: Home Credit India Finance Private Limited
+                    <br />
+                    Contact phone: 0124-6628713
+                    <br />
+                    Email: grievanceofficer@homecredit.co.in
+                    <br />
+                    CustomerCare: 0124-662-8888 , care@homecredit.co.in
+                    <br/>
+                    GRO link: <a href="https://www.homecredit.co.in/en/contact-us">https://www.homecredit.co.in/en/contact-us</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -807,16 +1084,58 @@ function NewAllPartners({ companies }) {
            
            <div className='anothertext'>
            <button className="firstonebutton">
-            <a 
+            {/* <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://iifl-loans.finbox.in/?partnerCode=CH_KOIRUD&agentCode=applinkbl'>Apply now</a>
+           href='https://iifl-loans.finbox.in/?partnerCode=CH_KOIRUD&agentCode=applinkbl'>Apply now</a> */}
+          <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey'>Apply now</a>  
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/iiflbl_old'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.iifl.com/finance/grievance-redressal-procedure'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen57}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open57}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr Hardik Panchal & Mrs. Kavita Menon
+                    <br />
+                    Company name: IIFL Finance Limited
+                    <br />
+                    Contact phone:  +91 22-45205810 & +91 22-68178410
+                    <br />
+                    Email: nodalofficer@iifl.com
+                    <br />
+                    CustomerCare: 1860-267-3000 or 7039-050-000, customer.care@iifl.com
+                    <br/>
+                    GRO link: <a href="https://www.iifl.com/finance/grievance-redressal-procedure">https://www.iifl.com/finance/grievance-redressal-procedure</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -834,16 +1153,59 @@ function NewAllPartners({ companies }) {
            
            <div className='anothertext'>
            <button className="firstonebutton">
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://iifl-loans.finbox.in/?partnerCode=CH_KHSLZR&agentCode=applink'>Apply now</a> */}
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://iifl-loans.finbox.in/?partnerCode=CH_KHSLZR&agentCode=applink'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey'>Apply now</a>
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/iifl'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.iifl.com/finance/grievance-redressal-procedure'>Know more</a></button></span>
+           <button className="secondonebutton" onClick={handleClickOpen58}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open58}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr Hardik Panchal & Mrs. Kavita Menon
+                    <br />
+                    Company name: IIFL Finance Limited
+                    <br />
+                    Contact phone:  +91 22-45205810 & +91 22-68178410
+                    <br />
+                    Email: nodalofficer@iifl.com
+                    <br />
+                    CustomerCare: 1860-267-3000 or 7039-050-000, 
+                    <br/>
+                    <a href="https://www.iifl.com/contact-us/raise-a-request">https://www.iifl.com/contact-us/raise-a-request</a>
+                   <br/> GRO link: <a href="https://www.iifl.com/finance/grievance-redressal-procedure">https://www.iifl.com/finance/grievance-redressal-procedure</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -866,9 +1228,46 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/iiflgoldloan'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.iifl.com/finance/grievance-redressal-procedure'>Know more</a></button></span>
+          <button className="secondonebutton" onClick={handleClickOpen59}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open59}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Mr Hardik Panchal & Mrs. Kavita Menon<br />
+                    Company name: IIFL Finance Limited
+                    <br />
+                    Contact phone:  +91 22-45205810 & +91 22-68178410
+                    <br />
+                    Email: nodalofficer@iifl.com
+                    <br />
+                    CustomerCare: 1860-267-3000 or 7039-050-000, gold-helpline@iifl.com
+                    <br/>
+                    GRO link: <a href="https://www.iifl.com/finance/grievance-redressal-procedure">https://www.iifl.com/finance/grievance-redressal-procedure</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div> 
@@ -891,19 +1290,53 @@ function NewAllPartners({ companies }) {
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/incred_choj'>Apply now</a></button><span> */}
-           <button className="secondonebutton"><a
-                  style={{ textDecoration: "none", color: "white" }}
-                  href="https://www.incred.com/grievance.html"
+           <button className="secondonebutton" onClick={handleClickOpen60}>Know more</button></span>
+ <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open60}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
                 >
-                  Know more
-                </a></button></span>
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer:  Ms. Rosy Dsouza<br />
+                    Company name: InCred Financial Services Limited
+                    <br />
+                    Contact phone: 022-42117799
+                    <br />
+                    Email: care@incred.com
+                    <br />
+                    CustomerCare: 18001022192 , care@incred.com
+                    <br/>
+                    GRO link: <a href="https://www.incred.com/grievance/">https://www.incred.com/grievance/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
 
         {/* --------------------------------13----------------------------------------------- */}
 
-        <div className='newallfirst'>
+        {/* <div className='newallfirst'>
             <div className='firstoneimage'>
             <img src={indifiimage} alt='Lenderimage'></img>
             <p> Indifi</p> 
@@ -943,22 +1376,23 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer:
+                    GrievanceRedressalOfficer: Mr. Naresh Kuma
                     <br />
                     Company name: Indifi Technologies
                     <br />
-                    Tel: 9696555444
+                    Tel: 8448895332
                     <br />
                     Email: grievances@indifi.com
                     <br />
                     CustomerCare: 9696555444,cs@indifi.com
                     <br />
+                    GRO link:<a href="https://media.indifi.com/images/website/documents/Grievance_Redressal_Mechanism_Indifi_Technologies.pdf">https://media.indifi.com/images/website/documents/<br/>Grievance_Redressal_Mechanism_Indifi_Technologies.pdf</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
            </div>
         </div>
-        </div>
+        </div> */}
 
         {/* --------------------------------14----------------------------------------------- */}
 
@@ -1005,16 +1439,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer: Ms. Meghana Shah
+                    GrievanceRedressalOfficer: Ms. Asharani
                     <br />
                     Company name: Finnovation Tech Solutions Private Limited
                     <br />
-                    Tel: 080-44292200
+                    Tel: 080-44292200 / 080-68534522
                     <br />
                     Email: help@kreditbee.in
                     <br />
                     CustomerCare: 080-44292200,help@kreditbee.in
                     <br />
+                    GRO link: <a href="https://www.kreditbee.in/grievance-redressal">https://www.kreditbee.in/grievance-redressal</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1042,9 +1477,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/moneytap'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://freo.money/grievanceredressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen61}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open61}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Anjali Panwar
+                    <br />
+                    Company name: MWYN Tech Private Limited
+                    <br />
+                    Tel: +91 6361121526
+                    <br />
+                    Email: anjali@freo.money
+                    <br />
+                    CustomerCare: hello@freo.money
+                    <br />
+                    GRO link: <a href="https://freo.money/grievanceredressal">https://freo.money/grievanceredressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1106,6 +1579,7 @@ function NewAllPartners({ companies }) {
                     <br/>
                     Timings: 9:00AM to 6:00PM (Monday to Friday - Excluding public holidays)
                     <br/>
+                    GRO link: <a href="https://moneyview.in/grievance">https://moneyview.in/grievance</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1166,7 +1640,7 @@ function NewAllPartners({ companies }) {
                     <br />
                     Contact phone: 03368157400
                     <br />
-                    GRO link - <a href="https://www.mpokket.in/grievance-redressal-policy">https://www.mpokket.in/grievance-redressal-policy</a>
+                    GRO link: <a href="https://www.mpokket.in/grievance-redressal-policy">https://www.mpokket.in/grievance-redressal-policy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1195,9 +1669,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/navi'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton" ><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://navi.com/customer-grievance-redressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen90}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open90}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficers: Bikram Ado
+                      <br />
+                    Company name: Navi Limited
+                    <br />
+                    Email: grievance.nfpl@navi.com
+                    <br />
+                    Contact phone:
+                    <br/>
+                    CustomerCare: 918147544555
+                    <br />
+                    GRO link: <a href="https://navi.com/customer-grievance-redressal">https://navi.com/customer-grievance-redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1249,13 +1761,20 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer: Goutham R<br />
+                    <br/>
+                    GrievanceRedressalOfficers: 1. Pranaya Kumar Biswal (General Queries)
+                    <br/>
+                      2. Sashikanta Parhi (Collection-related Complaints)
+                      <br />
                     Company name: Shuhari Tech Ventures Private Limited
                     <br />
-                    Email: goutham.r@nirafinance.com
+                    Email: grievance@nirafinance.com
                     <br />
-                    CustomerCare: support@nirafinance.com
+                    Contact phone: 7618789180
+                    <br/>
+                    CustomerCare: 7259947885 , support@nirafinance.com
                     <br />
+                    GRO link: <a href="https://www.nirafinance.com/support">https://www.nirafinance.com/support</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1310,17 +1829,18 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer: Mr. Moksh Jain
+                    GrievanceRedressalOfficer: Nodal Desk
                     <br />
-                    Company name: Shuhari Tech Ventures Private Limited
+                    Company name: Dreamplug Technologies Pvt Ltd
                     <br />
-                    Tel: 9341 300 300
+                    Tel:  040-69882777
                     <br />
                     Email: nodal.officer@prefr.com
                     <br />
-                    CustomerCare: 9341 300 300
-                    <br />
-                    info@prefr.com
+                    CustomerCare:  040 6988 1555  , wecare@prefr.com
+                    
+                    <br/>
+                    GRO link: <a href="https://prefr.com/privacy_policy#grievance_redressal">https://prefr.com/privacy_policy#grievance_redressal</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1347,9 +1867,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.privo.creditsaison&referrer=af_tranid%3Dk8Ng2ivGjy7RiqlWBwWGgQ%26af_siteid%3DCHApp%26c%3DApp%26af_ad%3DApp%26pid%3Dcredithaat_int%26af_adset%3DApp'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://privo.in/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen63}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open63}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Emaad Khan
+                    <br />
+                    Company name: Kisetsu Saison Finance (India) Private Limited
+                    <br />
+                    Contact phone: +91 9962003070
+                    <br />
+                    Email: support@privo.in ,  support@creditsaison-in.com
+                    <br />
+                    CustomerCare:  1800-1038-961  , support@privo.in ,support@creditsaison-in.com
+                    
+                    <br/>
+                    GRO link: <a href="https://privo.in/">https://privo.in/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1400,15 +1959,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Sanjeev Walia
+                    <br /> GrievanceRedressalOfficer: Mr. Aditya Verma
                     <br />
-                    Company name: EQX Analytics Private Limited
+                    Company name: Akara Capital Advisors Pvt Ltd/EQX Analytics Pvt Ltd. (LSP)
                     <br />
-                    Tel: +91-9953595222
+                    Tel: +91 9289108566 | 0124-6981222
                     <br />
                     Email: grievance.officer@stashfin.com
                     <br />
-                    CustomerCare:info@StashFin.com
+                    CustomerCare: +91 9289108566 | 0124-6981222 , grievance.officer@stashfin.com
+                    <br/>
+                    GRO link: <a href="https://www.stashfin.com/grievance-mechanism">https://www.stashfin.com/grievance-mechanism</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1463,16 +2024,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Rajesh Kumar
+                    <br /> GrievanceRedressalOfficer: Sona Gaharwar
                     <br />
                     Company name: Tata Capital Limited
                     <br />
-                    Tel: 022-68219546
+                    Tel: 022 6968 2392
                     <br />
                     Email: CCRO@tatacapital.com
                     <br />
-                    CustomerCare: 022-68219546
+                    CustomerCare: 1860 267 6060 , customercare@tatacapital.com
                     <br />
+                    GRO link: <a href="https://www.tatacapital.com/contact-us/customer-grievances.html">https://www.tatacapital.com/contact-us/customer-grievances.html</a>
                     {/* connect@flexiloans.com */}
                   </div>
                 </DialogContent>
@@ -1523,16 +2085,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Rajesh Kumar
+                    <br /> GrievanceRedressalOfficer: Sona Gaharwar
                     <br />
                     Company name: Tata Capital Limited
                     <br />
-                    Tel: 022-68219546
+                    Tel: 022 6968 2392
                     <br />
                     Email: CCRO@tatacapital.com
                     <br />
-                    CustomerCare: 022-68219546
+                    CustomerCare: 1860 267 6060 , customercare@tatacapital.com
                     <br />
+                    GRO link: <a href="https://www.tatacapital.com/contact-us/customer-grievances.html">https://www.tatacapital.com/contact-us/customer-grievances.html</a>
                     {/* connect@flexiloans.com */}
                   </div>
                 </DialogContent>
@@ -1562,9 +2125,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.rupeeredee.app&referrer=af_tranid%3DFJ2hwMzuEz94KhLAStNDyg%26af_siteid%3DApp%26c%3DApp%26af_ad%3DApp%26pid%3Dcredithaat_int%26af_adset%3DCreditHaatApp'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.rupeeredee.com/contact'>Know more</a></button></span>
+                       <button className="secondonebutton" onClick={handleClickOpen62}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open62}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Shivani Jha
+                    <br />
+                    Company name: MONEYMITRA IT SOLUTIONS PRIVATE LIMITED
+                    <br />
+                    Contact phone: 0124-4699111
+                    <br />
+                    Email: GRO@rupeeredee.com
+                    <br />
+                    CustomerCare: 0124-6914100 , care@rupeeredee.com
+                    <br />
+                    GRO link: <a href="https://www.rupeeredee.com/contact">https://www.rupeeredee.com/contact</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1611,15 +2212,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Venkatesh Dontul
+                    <br /> GrievanceRedressalOfficer: Ketan Sali
                     <br />
                     Company name: Upwards Capital Private Limited
                     <br />
-                    Tel: + 91 98921 56608
+                    Contact phone: +91-6358874622
                     <br />
-                    Email: venkatesh.dontul@go-upwards.com
+                    Email: grievance.redressal@lendingkart.com
                     <br />
-                    CustomerCare: +91-77150 98615
+                    CustomerCare: 1800-572-0202 , care@lendingkart.com
+                    <br/>
+                    GRO link: <a href="https://upwards.in/contact-us">https://upwards.in/contact-us</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1647,12 +2250,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.fastbanking&referrer=af_tranid%3DqZTvyWT76lwGuPOLhC6yQg%26af_siteid%3D%7Baffiliate_id%7D%26c%3D%7BCampaign%7D%26af_ad%3D%7BAd%7D%26pid%3Dcredithaat_int%26af_adset%3D%7BAdset%7D&pli=1'>Apply now</a> */}
            </button><span>
-           <button className="secondonebutton"><a
-                  style={{ textDecoration: "none", color: "white" }}
-                  href="https://www.kissht.com/customer_grievance"
+            <button className="secondonebutton" onClick={handleClickOpen64}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open64}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
                 >
-                  Know more
-                </a></button></span>
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br /> GrievanceRedressalOfficer: Reefat Shaikh
+                    <br />
+                    Company name: OnEMI Technology Solutions Limited
+                    <br />
+                    Contact phone: 08044745952
+                    <br />
+                    Email: care@kissht.com
+                    <br />
+                    CustomerCare: 080 44745884 / 080 62816309 , care@kissht.com
+                    <br/>
+                    GRO link: <a href="https://www.kissht.com/customer_grievance">https://www.kissht.com/customer_grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1670,9 +2308,47 @@ function NewAllPartners({ companies }) {
             <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://anq.finance/?referrer=singular_click_id%3D03c469c0-ab9a-456b-b4d2-072c314b8e45'>Apply now</a></button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://anq.finance/Grievance'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen65}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open65}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                  <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br /> GrievanceRedressalOfficer: Amarjeet Mahto
+                    <br />
+                    Company name: Anq Digital Finserv Private Limited
+                    <br />
+                    Contact phone: + 91-8050533435 
+                    <br />
+                    Email: nodal@anq.finance
+                    <br />
+                    CustomerCare: help@anq.finance
+                    <br/>
+                    GRO link: <a href="https://anq.finance/Grievance">https://anq.finance/Grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -1722,10 +2398,9 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: Rupicard
                     <br />
-                    Tel: +080-69819393
+                    Contact phone: 022 4302 8888.
                     <br />
-                    Email:
-                    support@rupicard.com
+                    Email: nodal.officer@sbmbank.co.in
                     <br />
                     CustomerCare: support@rupicard.com
                     <br />
@@ -1733,6 +2408,7 @@ function NewAllPartners({ companies }) {
                     <br/>
                     Upto 7% Interest on Fixed Deposit
                     <br/>
+                    GRO link: <a href='https://www.sbm.bank.in/notice-board/grievance-redressal-mechanism'>https://www.sbm.bank.in/notice-board/grievance-redressal-mechanism</a>
 
                   </div>
 
@@ -1792,10 +2468,11 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: SmartCoin Financials Private Limited
                     <br />
-                    Ph: + 91 9986640571
+                    Contact phone: + 91 9986640571
                     <br />
                     Email: grievance@smartcoin.co.in
                     <br />
+                    GRO link: <a href="https://web.olyv.co.in/grievance_redressal_policy.html">https://web.olyv.co.in/grievance_redressal_policy.html</a>
                     {/* CustomerCare: +91 9148380504 */}
                   </div>
                 </DialogContent>
@@ -1848,12 +2525,13 @@ function NewAllPartners({ companies }) {
                   >
                     <br /> GrievanceRedressalOfficer: Mr. Vishal Kaushik
                     <br />
-                    Company name: SmartCoin Financials Pvt Ltd.
+                    Company name: Branch International Financial Services Private Limited
                     <br />
-                    Ph: + 91 8655937427
+                    Contact phone: +91 8655937427
                     <br />
                     Email: gro@branch.co
                     <br />
+                    GRO link: <a href="https://branch.co/gr">https://branch.co/gr</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1908,14 +2586,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Narendra Laxman Pakhare
+                    <br /> GrievanceRedressalOfficer: Guna R
                     <br />
                     Company name: Kinara Capital Private Limited
                     <br />
-                    Ph: + 91 6364464957
+                    Contact phone: 6364464958
                     <br />
-                    Email: headcustomercare@kinaracapital.com
+                    Email: managercustomercare@kinaracapital.com
                     <br />
+                    CustomerCare: 1800-103-2683 , help@kinaracapital.com
+                    <br/>
+                    GRO link: <a href="https://kinaracapital.com/customer-grievance-redressal-policy/">https://kinaracapital.com/customer-grievance-redressal-policy/</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -1966,15 +2647,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Aashish Saxena
+                    <br /> GrievanceRedressalOfficer: Swetha S 
                     <br />
-                    Company name: GaragePreneurs Internet Pvt Ltd
+                    Company name: slice small finance bank
                     <br />
-                    Contact Number : 080 6939 0473
+                    Contact Number : 080 4831 8328
                     <br />
-                    Email: customergrievance@sliceit.com
-
+                    Email: principal.nodalofficer@slicebank.com , nodalofficer@slicebank.com
+                    <br/>
+                    CustomerCare: 080 4832 99991800-121-1905 , help@sliceit.comcustomercare@nesfb.com
                     <br />
+                    GRO link: <a href="https://slice.bank.in/documents/Policies/Customer-Grievance-Redressal-Mechanism-2.pdf" >https://slice.bank.in/documents/Policies/Customer-Grievance-Redressal-Mechanism-2.pdf</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2031,11 +2714,13 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: Flexidigital Tech India Private Limited
                     <br />
-                    Tel: +91 8045040500
+                    Contact phone: 02269875199
                     <br />
                     Email: grievance@trustpaisa.com
-
+                    <br/> 
+                    CustomerCare: 02269875175 , help@trustpaisa.com
                     <br />
+                    GRO link: <a  href="https://trustpaisa.com/grievance">https://trustpaisa.com/grievance</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2099,6 +2784,10 @@ function NewAllPartners({ companies }) {
                     Email: grievance@rupeek.com
 
                     <br />
+                    CustoemerCare:  18004198000 , care@rupeek.com 
+
+                    <br/>
+                    GRO link: <a href="https://assets.rupeek.com/rcpl-website/rcpl-greivance-redressal.pdf">https://assets.rupeek.com/rcpl-website/rcpl-greivance-redressal.pdf</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2158,10 +2847,15 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: R. K. Bansal Pvt. Ltd
                     <br />
-                    Helpline No : +91-9899985495
+                    Contact phone: +91-9311417272
+                    <br/>
+                    Email : samir@ramfincorp.com
+                    <br/>
+                    Helpline no : +91-9599238889 & +91-9599196212
                     <br />
-                    Email: info@ramfincorp.com
+                    CustomerCare: info@ramfincorp.com
                     <br />
+                    GRO link: <a href="https://www.ramfincorp.com/grievance_redressal_policy">https://www.ramfincorp.com/grievance_redressal_policy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2212,14 +2906,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Jitendra
+                    <br /> GrievanceRedressalOfficer: Divya Agnihotri
                     <br />
-                    Company name: Dev-Aashish Capitals Private Limited
+                    Company name: Aadhar India Finvest Limited
                     <br />
-                    Phone Number: +91-9220644112
+                    Contact phone: +91-9289971377
                     <br />
-                    Email: care@rupee112.com
+                    Email:  divya.agnihotri@aadharindiafinvest.com
                     <br />
+                    CustomerCare: +91-9220644112 , care@rupee112.com
+                    <br/> 
+                    GRO link: <a href="https://www.rupee112.com/privacy-policy">https://www.rupee112.com/privacy-policy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2273,15 +2970,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Ms. Rati Mundra
-
+                    <br /> GrievanceRedressalOfficer: Anooja Sodhi
                     <br />
                     Company name: Poonawalla Fincorp Limited
                     <br />
-                    Contact Number : 020 67808090
+                    Contact phone: 020 67808090
                     <br />
-                    Email: rati.mundra@poonawallafincorp.com
+                    Email: grievance@poonawallafincorp.com
                     <br />
+                    CustomerCare: 1800 266 3201 , customercare@poonawallafincorp.com, grievance@poonawallafincorp.com
+                    <br/>
+                    GRO link: <a href="https://poonawallafincorp.com/documents/d/poonawalla-fincorp/grievance-redressal-officers">https://poonawallafincorp.com/documents/d/poonawalla-fincorp/grievance-redressal-officers</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2340,11 +3039,13 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: Unity Small Finance Bank 
                     <br />
-                    Contact Number : 9152366104
+                    Contact phone : 9152366104
                     <br />
                     Email: level3escalation@unitybank.co.in
-
+                    <br/>
+                    CustomerCare: 1800-209-1122 , care@unitybank.co.in
                     <br />
+                    GRO link: <a href="https://unity.bank.in/contact-us">https://unity.bank.in/contact-us</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2405,11 +3106,13 @@ function NewAllPartners({ companies }) {
                     <br />
                     Company name: Easy Platform Services Private Limited
                     <br />
-                    Contact Number : 022-2825 6467
+                    Contact phone : +91 9930 344 937
                     <br />
                     Email: info@getzype.com
-
+                    <br/>
+                    CustomerCare: 080654 20207 , support@getzype.com
                     <br />
+                    GRO link: <a href="https://www.getzype.com/grievance-redressal/">https://www.getzype.com/grievance-redressal/</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2466,13 +3169,15 @@ function NewAllPartners({ companies }) {
                   >
                     <br /> GrievanceRedressalOfficer: Mr. Nikhil Asopa
                     <br />
-                    Company name: Tata Fintech Private Limited
+                    Company name: Tata Digital Private Limited
                     <br />
-                    Contact Number : 
+                    Contact phone : 
                     <br />
-                    Email: grievances@tatafinserv.com
-
+                    Email: grievances@tataneu.com
+                    <br/>
+                    CustomerCare:  customercare@tataneu.com
                     <br />
+                    GRO link: <a href="https://www.tataneu.com/login/privacypolicy">https://www.tataneu.com/login/privacypolicy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2605,15 +3310,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Ms. Prakhar Khandelwal
+                    <br /> GrievanceRedressalOfficer: Mr. Prakhar Khandelwal
                     <br />
                     Company name: Flat White Capital Pvt. Ltd
                     <br />
-                    Contact Number : +918068495878
+                    Contact phone : +918068495878
                     <br />
-                    Email:  help@indiagold.co.
-
+                    Email:  help@indiagold.co
+                    <br/>
+                    CustomerCare: +918068495878 , support@indiagold.co
                     <br />
+                    GRO link: <a href="https://indiagold.co/privacy-policy">https://indiagold.co/privacy-policy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2669,15 +3376,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Suhail Sheikh
+                    <br /> GrievanceRedressalOfficer: Mr. Rajat Malpani
                     <br />
                     Company name:  Unifinz Capital India Limited (UCIL)
                     <br />
-                    Contact Number : 91–7373737316
+                    Contact phone : +91-70003517003 
                     <br />
                     Email: grievance@lendingplate.com 
-
+                    <br/>
+                    CustomerCare: +91–7373737316 , care@lendingplate.com
                     <br />
+                    GRO link: <a href="https://lendingplate.com/policies">https://lendingplate.com/policies</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2735,13 +3444,15 @@ function NewAllPartners({ companies }) {
                   >
                     <br /> GrievanceRedressalOfficer : Mr. Saman Bilgrami
                     <br />
-                    Company name : Kredito24(One Click Money Techplus Pvt. Ltd.) 
+                    Company name : Kredito24(Oneclickmoney Techplus Pvt Ltd) 
                     <br />
-                    Contact Number : +91 124 692 0540
+                    Contact phone : +91 124 692 0540
                     <br />
                     Email : feedback@kredito24.in 
-
+                    <br/>
+                    CustomerCare:  +91 124 692 0540 , +91 124 692 0541 , care@kredito24.in
                     <br />
+                    GRO link: <a href="https://kredito24.in/page/privacy-policy">https://kredito24.in/page/privacy-policy</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2792,15 +3503,17 @@ function NewAllPartners({ companies }) {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer : Mr. Amit Kukreja 
+                    <br /> GrievanceRedressalOfficer: Veena Karevhan 
                     <br />
-                    Company name : Nikunj Health Technologies Private Limited (“AyushPay”)
+                    Company name: Nikunj Health Technologies Private Limited (“AyushPay”)
                     <br />
-                    Contact Number : 9711221080
+                    Contact phone: 
                     <br />
-                    Email :  amit.kukreja@AyushPay.com 
-
+                    Email: care@ayushpay.com 
+                    <br/>
+                    CustomerCare: +91 9711221080 , care@ayushpay.com
                     <br />
+                    GRO link: <a href="https://ayushpay.com/privacyPolicy#contact">https://ayushpay.com/privacyPolicy#contact</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -2824,9 +3537,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://app.appsflyer.com/rapidrupee.app?pid=credithaat_int&af_siteid=CHAPP&c=CHAPP&af_cost_model=CPR&af_ad_type=Marketplace&af_click_lookback=7d&clickid=%s'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.rapidrupee.in/grievance-redressal-policy/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen66}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open66}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br /> GrievanceRedressalOfficer: Shaista Shaikh
+                    <br />
+                    Company name: AFG BUSINESS SOLUTIONS (INDIA) PRIVATE LIMITED
+                    <br />
+                    Contact phone: 912268492925
+                    <br />
+                    Email: grievance@afgbusinesssolutions.in
+                    <br/>
+                    CustomerCare: 02268740470 , care@rapidrupee.in
+                    <br />
+                    GRO link: <a href="https://www.rapidrupee.in/grievance-redressal-policy/">https://www.rapidrupee.in/grievance-redressal-policy/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2847,9 +3598,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://arysefin.com/PL-Affiliate?dsa=114521780&source=CHReferral&utm_campaign=CHApp&clickid=CLICKID'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.arysefin.com/Grievance'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen67}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open67}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Monika Kaushik
+                    <br />
+                    Company name: VIBHUPRADA SERVICES PRIVATE LIMITED
+                    <br />
+                    Contact phone: 020-4730-4552
+                    <br />
+                    Email: support@arysefin.com
+                    <br/>
+                    CustomerCare: 020-4730-4552 , support@arysefin.com
+                    <br />
+                    GRO link: <a href="https://www.arysefin.com/Grievance">https://www.arysefin.com/Grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2870,9 +3660,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://loans.apps.herofincorp.com/en/personal-loan?af_xp=custom&af_sub1=CHAPP&pid=CreditHaat&is_retargeting=true&utm_content=CLICKID&utm_source=partnership&utm_campaign=CreditHaat&af_reengagement_window=30d&c=Credithaat_new'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.herofincorp.com/grievance-redressal'>Know more</a></button></span>
+                          <button className="secondonebutton" onClick={handleClickOpen68}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open68}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    GrievanceRedressalOfficer: Ms. Monica Arora
+                    <br />
+                    Company name: Hero Fincorp Ltd.
+                    <br />
+                    Contact phone: 0120 403 5320
+                    <br />
+                    Email: nodal.officer@herofincorp.com
+                    <br/>
+                    CustomerCare: Customer.Care@HeroFinCorp.com
+                    <br />
+                    GRO link: <a href="https://www.herofincorp.com/grievance-redressal">https://www.herofincorp.com/grievance-redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2893,9 +3721,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://web.fatakpay.com/authentication/login?utm_source=805_IS6A9&Utm_medium=CHAPP'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.fatakpay.com/redressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen69}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open69}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Ms. Adv. Varsha Manoharan
+                    <br />
+                    Company name: FatakPay Digital Pvt. Ltd.
+                    <br />
+                    Contact phone: +91-9076096209 / 07969699883
+                    <br />
+                    Email: escalation@fatakpay.com
+                    <br/>
+                    CustomerCare:  +91 9987178747 / 09240271272 , help@fatakpay.com
+                    <br />
+                    GRO link: <a href="https://www.fatakpay.com/redressal">https://www.fatakpay.com/redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2916,9 +3783,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://online.flexsalary.com/CustomerLogin/Index?CampaignID=577758859#x'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.vivifin.com/grievance-redressal-mechanism.php'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen70}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open70}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Prakash Rajan
+                    <br />
+                    Company name: Vivifi India Finance Private Limited
+                    <br />
+                    Contact phone: +91-91211-96333
+                    <br />
+                    Email: pno@vivifin.com
+                    <br/>
+                    CustomerCare: +91-40-4617-5151 , support@flexsalary.com
+                    <br />
+                    GRO link: <a href="https://www.vivifin.com/grievance-redressal-mechanism.php">https://www.vivifin.com/grievance-redressal-mechanism.php</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2939,9 +3845,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://app.appsflyer.com/com.anytimerupee?pid=credithaat_int&c=CHAPP&af_cost_model=CPI&af_ad_type=CHAPP&af_click_lookback=7d&clickid=%s&advertising_id={gaid}&is_incentivized={true\false}'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://anytimerupee.com/refund-policy-2'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen88}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open88}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Komal Bisht
+                    <br />
+                    Company name: Pi Credit Services Private Limited
+                    <br />
+                    Contact phone: 9211752207
+                    <br />
+                    Email: gro@anytimerupee.com
+                    <br/>
+                    CustomerCare: +91 8065061330 , care@anytimerupee.com
+                    <br />
+                    GRO link: <a href="https://anytimerupee.com/refund-policy-2">https://anytimerupee.com/refund-policy-2</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2962,9 +3907,44 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://abhicash.sng.link/Ddpes/90d6'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://abhicash.in/grievancesAndRedressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen71}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open71}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    {/* GrievanceRedressalOfficer:  */}
+                    {/* <br /> */}
+                    Company name: Abhicash Infotech Private Limited
+                    <br/>
+                    CustomerCare: 9999966040 , support@abhicash.in
+                    <br />
+                    GRO link: <a href="https://abhicash.in/grievancesAndRedressal">https://abhicash.in/grievancesAndRedressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -2985,9 +3965,50 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://w6em.app.link/SB5HplfbVzb?%243p=a_credithaat&~campaign=CHAPP&~click_id=CLICKID'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.mobikwik.com/grievancepolicy'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen72}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open72}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    Principal Nodal Officer: Deepak Gagneja
+                    <br/>
+                    Nodal Officer: Prashant Gandhi
+                    <br />
+                    Company name: One MobiKwik Systems Limited
+                    <br />
+                    Contact phone: +918069898317
+                    <br />
+                    Email: nodal@mobikwik.com
+                    <br/>
+                    CustomerCare: 080-69808320
+                    <br />
+                    GRO link: <a href="https://www.mobikwik.com/grievancepolicy">https://www.mobikwik.com/grievancepolicy</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3008,9 +4029,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://instamoney.page.link/WhqG'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.instamoney.app/grievance-redressal-mechanism/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen89}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open89}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Vishal Poddar
+                    <br />
+                    Company name: Roctogen Services Private Limited
+                    <br />
+                    Contact phone:
+                    <br />
+                    Email: grievances@instamoney.app
+                    <br/>
+                    CustomerCare: grievances@instamoney.app
+                    <br />
+                    GRO link: <a href="https://www.instamoney.app/grievance-redressal-mechanism/">https://www.instamoney.app/grievance-redressal-mechanism/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3031,10 +4091,47 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.aspirenbfc.in/login?code=ASPC6MEWI'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.letsaspire.in/customer-grievances/'>Know more</a></button></span>
-           </div>
+            <button className="secondonebutton" onClick={handleClickOpen73}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open73}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Manoj Kumar Rathi
+                    <br />
+                    Company name: Aspire Fintech Pvt Ltd
+                    <br />
+                    Contact phone: +91 6362 098 268
+                    <br />
+                    Email: compliance@letsaspire.in
+                    <br />
+                    GRO link: <a href="https://www.letsaspire.in/customer-grievances/">https://www.letsaspire.in/customer-grievances/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+          </div>
         </div>
         </div>
 
@@ -3054,9 +4151,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.kissht.com/paywithring'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.paywithring.com/customer-grievance'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen74}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open74}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Reefat Shaikh
+                    <br />
+                    Company name: OnEMI Technology Solutions Limited
+                    <br />
+                    Contact phone: 08044745952
+                    <br />
+                    Email: care@kissht.com
+                    <br />
+                    CustomerCare: 080 44745880 / 080 62816300 , care@paywithring.com
+                    <br/>
+                    GRO link: <a href="https://www.paywithring.com/customer-grievance">https://www.paywithring.com/customer-grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3077,9 +4213,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.loans24.co.in/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.loans24.co.in/contact-us/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen75}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open75}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Chanda Khatri
+                    <br />
+                    Company name: Cars24 Financial Services Private Limited
+                    <br />
+                    Contact phone: +91-7428279331
+                    <br />
+                    Email: nbfc.grievances@cars24.com
+                    <br />
+                    CustomerCare: care.loans@cars24.com
+                    <br/>
+                    GRO link: <a href="https://www.loans24.co.in/contact-us/">https://www.loans24.co.in/contact-us/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3100,9 +4275,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.bajajfinservmarkets.in/apply-for-personal-loan-finservmarkets/?utm_source=Lead_Partnerships&utm_medium=SOL&utm_campaign=%7bvariable%7d&utm_content=Website&utm_term=CreditHaat'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.bajajfinservmarkets.in/legal-and-compliance/grievance-redressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen76}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open76}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Lipi Nayak
+                    <br />
+                    Company name: Bajaj Finserv Direct Limited
+                    <br />
+                    Contact phone: 7066114134
+                    <br />
+                    Email: grievance.officer@bajajfinservmarkets.in
+                    <br />
+                    CustomerCare: contact@bajajfinservmarkets.in
+                    <br/>
+                    GRO link: <a href="https://www.bajajfinservmarkets.in/legal-and-compliance/grievance-redressal">https://www.bajajfinservmarkets.in/legal-and-compliance/grievance-redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3123,9 +4337,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.paisabazaar.com/digital-lending/?bank_type=0&utm_source=pb_aff&utm_medium=PBAFCH01&utm_term=CLICKID&utm_content=CPL&utm_campaign=Personal_Loan'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.paisabazaar.com/grievance-redressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen77}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open77}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Ms. Jyotsna Popli
+                    <br />
+                    Company name: Paisabazaar Marketing and Consulting Private Limited
+                    <br />
+                    Contact phone: 0124-3509999 
+                    <br />
+                    Email: servicehead@paisabazaar.com
+                    <br />
+                    CustomerCare: +91 1800 258 5616 ,  care@paisabazaar.com
+                    <br/>
+                    GRO link: <a href="https://www.paisabazaar.com/grievance-redressal">https://www.paisabazaar.com/grievance-redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3146,9 +4399,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://ajamservices.g2afse.com/click?pid=12&offer_id=10&sub1=CHAPP&sub2=CLICKID'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://cashtoyou.in/page/privacy-policy'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen78}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open78}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Saman Bilgrami
+                    <br />
+                    Company name: DESIGN SENSE STUDIO PRIVATE LIMITED
+                    <br />
+                    Contact phone: +91 796 508 2942
+                    <br />
+                    Email: grievance@cashtoyou.in
+                    <br />
+                    CustomerCare:  +91 796 508 2940 , +91 796 508 2941 , care@cashtoyou.in
+                    <br/>
+                    GRO link: <a href="https://cashtoyou.in/page/privacy-policy">https://cashtoyou.in/page/privacy-policy</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3169,9 +4461,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://brightloans.in/apply-now?utm_source=credithaat&utm_medium=web&utm_campaign=credithaat'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://brightloans.in/contact-us'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen79}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open79}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Jitender Yadav
+                    <br />
+                    Company name: AVINASH CAPITAL MARKETS PRIVATE LIMITED
+                    <br />
+                    Contact phone: +91-98-11-041-592
+                    <br />
+                    Email:
+                    <br />
+                    CustomerCare: +91-8800041445 , care@brightloans.in
+                    <br/>
+                    GRO link: <a href="https://brightloans.in/privacy-policy">https://brightloans.in/privacy-policy</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3192,9 +4523,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://web.rapidmoney.in/borrower/login?utm_source=CreditHatt&utm_extsource=partner&utm_medium=whatsapp&utm_campaign=abc&utm_campaignID=1234'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.rapidmoney.in/privacy-policy'>Know more</a></button></span>
+          <button className="secondonebutton" onClick={handleClickOpen80}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open80}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Amit Agashe
+                    <br />
+                    Company name: MoneyTime Technology Solutions Pvt Ltd
+                    <br />
+                    Contact phone: +91 8097880793 
+                    <br />
+                    Email: grievance@rapidmoney.in
+                    <br />
+                    CustomerCare: support@rapidmoney.in
+                    <br/>
+                    GRO link: <a href="https://www.rapidmoney.in/privacy-policy">https://www.rapidmoney.in/privacy-policy</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3215,9 +4585,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://rupeeontime.com/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://rupeeontime.com/contact-us'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen81}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open81}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    Chief Collection Officer: Shakti Singh Shekhawat
+                    <br />
+                    Company name: DEV-AASHISH CAPITALS PRIVATE LIMITED
+                    <br />
+                    Contact phone: +91-9289114097
+                    <br />
+                    Email: shakti.shekhawat@rupeeontime.com
+                    <br />
+                    CustomerCare: +91-9220912304 , care@rupeeontime.com
+                    <br/>
+                    GRO link: <a href="https://rupeeontime.com/contact-us">https://rupeeontime.com/contact-us</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3237,9 +4646,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.loan112.com/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.loan112.com/contact-us'>Know more</a></button></span>
+          <button className="secondonebutton" onClick={handleClickOpen82}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open82}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    Chief Collection Officer: Shakti Singh Shekhawat 
+                    <br />
+                    Company name: DEVMUNI LEASING & FINANCE LIMITED
+                    <br />
+                    Contact phone: +91-9289114097
+                    <br />
+                    Email: shakti.shekhawat@loan112.com
+                    <br />
+                    CustomerCare: +91-9311912970 , care@loan112.com
+                    <br/>
+                    GRO link: <a href="https://www.loan112.com/contact-us">https://www.loan112.com/contact-us</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3259,9 +4707,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.bharatloan.com/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.bharatloan.com/contact-us'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen83}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open83}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Tarun Kumar Saxena
+                    <br />
+                    Company name: SOLOMON CAPITAL PRIVATE LIMITED
+                    <br />
+                    Contact phone: +91-8282824-644
+                    <br />
+                    Email: info@bharatloan.com
+                    <br />
+                    CustomerCare: +91-8282824-644 , care@bharatloan.com
+                    <br/>
+                    GRO link: <a href="https://www.bharatloan.com/contact-us">https://www.bharatloan.com/contact-us</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3281,9 +4768,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://digicredit.in/?utm_source=CreditHaat&utm_medium=referral&utm_campaign=CH_LendersPage'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href=' https://digicredit.in/Contact-us'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen84}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open84}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Digi Credit
+                    <br />
+                    Company name: ISEOUS
+                    <br />
+                    Contact phone: +919211728443
+                    <br />
+                    Email: support@digicredit.in
+                    <br />
+                    CustomerCare: +919211728443 , support@digicredit.in
+                    <br/>
+                    GRO link: <a href="https://digicredit.in/Contact-us">https://digicredit.in/Contact-us</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3304,9 +4830,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://lamf.fibe.in/SignUp?utm_source=LAMF_CREDITHAAT&sourceId=LAMF'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.fibe.in/grievance-redressal/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen85}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open85}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Abhiroop Khairnar
+                    <br />
+                    Company name: Social Worth Technologies Private Limited
+                    <br />
+                    Contact phone : 
+                    <br />
+                    Email: grievance@fibe.in
+                    <br />
+                    CustomerCare: 020-67639797 , care@fibe.in
+                    <br/>
+                    GRO link: <a href="https://www.fibe.in/grievance-redressal/">https://www.fibe.in/grievance-redressal/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3328,9 +4893,48 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.zestmoney.in/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://discover.zestmoney.in/complaints/'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen86}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open86}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Srinivas Pilli
+                    <br />
+                    Company name: Glimmer Technologies Private Limited
+                    <br />
+                    Contact phone : 022-68539501 / 079-64807777
+                    <br />
+                    Email: cxoforyou@zestmoney.in
+                    <br />
+                    CustomerCare: help@zestmoney.in
+                    <br/>
+                    GRO link: <a href="https://discover.zestmoney.in/complaints/">https://discover.zestmoney.in/complaints/</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
@@ -3350,9 +4954,46 @@ function NewAllPartners({ companies }) {
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.idfcfirst.bank.in/'>Apply now</a>
             </button><span>
-           <button className="secondonebutton"><a 
-           style={{ textDecoration: "none", color: "white" }}
-           href='https://www.idfcfirst.bank.in/support/grievance-redressal'>Know more</a></button></span>
+            <button className="secondonebutton" onClick={handleClickOpen87}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open87}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: 
+                    <br />
+                    Company name: IDFC FIRST Bank Ltd
+                    <br />
+                    Contact phone : 1800 10 888
+                    <br />
+                    Email: cro.giftcity@idfcfirstbank.com
+                    <br/>
+                    GRO link: <a href="https://www.idfcfirst.bank.in/support/grievance-redressal">https://www.idfcfirst.bank.in/support/grievance-redressal</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
            </div>
         </div>
         </div>
