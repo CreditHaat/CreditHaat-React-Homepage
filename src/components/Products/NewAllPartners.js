@@ -43,7 +43,7 @@ import rupeek112 from  "../NewHomePage/lendingpartimages/Rupee112.png";
 import ramfincorp from "../NewHomePage/lendingpartimages/ramfincorp.png";
 import poonawalla from "../NewHomePage/lendingpartimages/Poonawalla.png";
 import unity from "../NewHomePage/lendingpartimages/unity.jpeg";
-import zype from "../NewHomePage/lendingpartimages/zype.jpg";
+//import zype from "../NewHomePage/lendingpartimages/zype.jpg";
 import tataneu from "../NewHomePage/lendingpartimages/tata.png";
 import hdfc from "../NewHomePage/lendingpartimages/hdfc.png";
 import indiagold from "../NewHomePage/lendingpartimages/indiagold.png";
@@ -86,6 +86,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import NavBar from '../NewHomePage/NavBar';
 import NewCityFooter from '../NewHomePage/newCityFooter';
 import NewHomePageFooter from '../NewHomePage/NewHomePageFooter';
+
+import zypenew from "../NewHomePage/lendingpartimages/zypenewlogoRFCP.png";
+
 
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -3059,7 +3062,7 @@ const handleClickOpen90 = () => {
 
         <div className='newallfirst'>
             <div className='firstoneimage'>
-            <img src={zype} alt='Lenderimage'></img>
+            <img src={zypenew} alt='Lenderimage'></img>
             <p>Zype</p> 
             </div>
            <div className='secondonetext'>
@@ -3102,17 +3105,25 @@ const handleClickOpen90 = () => {
                       fontSize: "18px",
                     }}
                   >
-                    <br /> GrievanceRedressalOfficer: Mr. Paritosh Malondkar
+                    <br /> GrievanceRedressalOfficer / PrincipalNodalOfficer: Mr. Swapnil Kinalekar
                     <br />
-                    Company name: Easy Platform Services Private Limited
+                    Company name: Respo Financial Capital Private Limited
                     <br />
-                    Contact phone : +91 9930 344 937
-                    <br />
-                    Email: info@getzype.com
+                    Address: Address: 2nd Floor Dyna Business Park MIDC, Andheri (East), Mumbai-400093
                     <br/>
-                    CustomerCare: 080654 20207 , support@getzype.com
+                    Contact phone : 9819658465
                     <br />
-                    GRO link: <a href="https://www.getzype.com/grievance-redressal/">https://www.getzype.com/grievance-redressal/</a>
+                    Email: nodal@respo.co.in
+                    <br />
+                    Data privacy & storage policy: <a href="https://respo.co.in/privacy-policy/">https://respo.co.in/privacy-policy/ </a>
+                    <br/>
+                    Fair practice code policy: <a href="https://respo.co.in/fair-practice-code/">https://respo.co.in/fair-practice-code/</a>
+                    <br/>
+                    Sachet portal: <a href="https://sachet.rbi.org.in/home/index">https://sachet.rbi.org.in/home/index</a> 
+                    <br/>
+                    Website URLs: <a href="https://respo.co.in/">https://respo.co.in/</a>
+                    <br/>
+                    GRO link: <a href="https://respo.co.in/grievance-redressal/">https://respo.co.in/grievance-redressal/</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
