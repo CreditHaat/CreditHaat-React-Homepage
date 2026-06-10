@@ -3062,7 +3062,10 @@ const handleClickOpen90 = () => {
 
         <div className='newallfirst'>
             <div className='firstoneimage'>
+            <a href="https://respo.co.in/policies/" target="_blank" rel="">
             <img src={zypenew} alt='Lenderimage'></img>
+            </a>
+            
             <p>Zype</p> 
             </div>
            <div className='secondonetext'>
