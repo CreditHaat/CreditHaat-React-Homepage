@@ -76,7 +76,13 @@ import bharatloansimage from "../NewHomePage/lendingpartimages/BharatLoan_Logo.p
 import digicreditimage from "../NewHomePage/lendingpartimages/DigiCredit_logo.png";
 import zestmoneyimage from "../NewHomePage/lendingpartimages/ZestMoney.png";
 import idfcimage from "../NewHomePage/lendingpartimages/IDFC_Logo.png";
-
+import ratecut from "../NewHomePage/lendingpartimages/ratecutimg.png";
+import muthootred from "../NewHomePage/lendingpartimages/muthoot.png";
+import muthootblue from "../NewHomePage/lendingpartimages/muthootBlueimg.png";
+import creditsea from "../NewHomePage/lendingpartimages/creditsealogo1.png";
+import abhimoney from "../NewHomePage/lendingpartimages/abhimoneyimg.png";
+import creditmines from "../NewHomePage/lendingpartimages/creditminesimg.png";
+import truerupee from "../NewHomePage/lendingpartimages/truerupeeimg.png";
 
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
@@ -88,6 +94,7 @@ import NewCityFooter from '../NewHomePage/newCityFooter';
 import NewHomePageFooter from '../NewHomePage/NewHomePageFooter';
 
 import zypenew from "../NewHomePage/lendingpartimages/zypenewlogoRFCP.png";
+import { Height } from '@mui/icons-material';
 
 
 
@@ -174,7 +181,13 @@ function NewAllPartners({ companies }) {
    const [open88, setOpen88] = useState(false);
   const [open89, setOpen89] = useState(false);
   const [open90, setOpen90] = useState(false);
-
+  const [open91, setOpen91] = useState(false)
+  const [open92, setOpen92] = useState(false)
+  const [open93, setOpen93] = useState(false);
+  const [open94, setOpen94] = useState(false);
+  const [open95,setOpen95] = useState(false);
+  const [open96, setOpen96] = useState(false);
+  const [open97, setOpen97] = useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -388,7 +401,30 @@ const handleClickOpen89 = () => {
 };
 const handleClickOpen90 = () => {
     setOpen90(true);
-};  
+};
+const handleClickOpen91 = () => {
+    setOpen91(true);
+};
+const handleClickOpen92 = () => {
+    setOpen92(true);
+};
+const handleClickOpen93 = () => {
+    setOpen93(true);
+};
+const handleClickOpen94 = () => {
+    setOpen94(true);
+};
+
+const handleClickOpen95 = () => {
+    setOpen95(true);
+};
+const handleClickOpen96 = () => {
+    setOpen96(true);
+};
+const handleClickOpen97 = () => {
+    setOpen97(true);
+};
+
   const handleClose = () => {
     setOpen(false);
     setOpen1(false);
@@ -460,6 +496,14 @@ const handleClickOpen90 = () => {
     setOpen88(false);
     setOpen89(false);
     setOpen90(false);
+    setOpen91(false);
+    setOpen92(false);
+    setOpen93(false);
+    setOpen94(false);
+    setOpen95(false);
+    setOpen96(false);
+    setOpen97(false);
+
   };
 
     return (
@@ -496,7 +540,11 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://planet.ltfs.com/LTFS-CL/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'
+           >Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://planet.ltfs.com/LTFS-CL/'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/landtfs_new'>Apply now</a> */}
@@ -562,9 +610,14 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loan for salaried and self-employed individuals</p>
            
            <div className='anothertext'>
-                       <button className="firstonebutton"><a 
+             <button className="firstonebutton">
+           <a style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            {/* <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://oneapp.abfldirect.com/esb/login?dsa_hash=f7f2d316f76e394a1908bb386f629084f8e486d30281835bed9b2b9d0cafb77e&utm_source=CHR&utm_medium=CPI&utm_campaign=CHAPP'>Apply now</a></button><span>
+           href='https://oneapp.abfldirect.com/esb/login?dsa_hash=f7f2d316f76e394a1908bb386f629084f8e486d30281835bed9b2b9d0cafb77e&utm_source=CHR&utm_medium=CPI&utm_campaign=CHAPP'>Apply now</a>
+           */}
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='	https://oneapp.abfldirect.com/esb/login?dsa_hash=f7f2d316f76e394a1908bb386f629084f8e486d30281835bed9b2b9d0cafb77e&utm_source=CHAPP&utm_medium=CHAPP&utm_campaign=webpp'>Apply now</a></button><span> */}
@@ -625,9 +678,14 @@ const handleClickOpen90 = () => {
            <p> Features: End-to-end Digital Process (from Login to Loan Amount <br/>Disbursement)</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://udyogplus.adityabirlacapital.com/?redirecttype=campaign&utm_source=ABCD_Partnership&utm_campaign=ABCD_PR1015&utm_medium=ABCD_PR1015_publisherid&utm_content=CHAPP'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://udyogplus.adityabirlacapital.com/?redirecttype=campaign&utm_source=ABCD_Partnership&utm_campaign=ABCD_PR1015&utm_medium=ABCD_PR1015_publisherid&utm_content=CHAPP'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen53}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -691,7 +749,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://web.cashe.co.in/VjcvdkZ0b0ZFVDZDMlFGOE1LQzRmTlo0WmRDRUpDdHErcm5IUytZWWgwVWJ4bVdhc0l0QnNSbnQ3Y1RyVWFkRVhhdmlCdjBLbnIzNzNCQmtQTFlIc3E0RGkrWnRTVXJtUlVvT1ljYjNYVy9oZXNvK1BwWEoybFJxR3VhaGRUK3o='>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://web.cashe.co.in/VjcvdkZ0b0ZFVDZDMlFGOE1LQzRmTlo0WmRDRUpDdHErcm5IUytZWWgwVWJ4bVdhc0l0QnNSbnQ3Y1RyVWFkRVhhdmlCdjBLbnIzNzNCQmtQTFlIc3E0RGkrWnRTVXJtUlVvT1ljYjNYVy9oZXNvK1BwWEoybFJxR3VhaGRUK3o='>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/cashe_new'>Apply now</a> */}
@@ -762,9 +823,14 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://fibe.onelink.me/BuuV?af_xp=custom&pid=Credithaat&af_dp=es25022015%3A%2F%2F'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://fibe.onelink.me/BuuV?af_xp=custom&pid=Credithaat&af_dp=es25022015%3A%2F%2F'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/earlysalary_consent_oj'>Apply now</a></button><span> */}
@@ -828,7 +894,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://play.google.com/store/apps/details?id=com.finnable.customer'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://play.google.com/store/apps/details?id=com.finnable.customer'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/finnable'>Apply now</a> */}
@@ -892,7 +961,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://finzy.com/borrow'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://finzy.com/borrow/eligibility-check?channel-partner-id=632a88a0a6822d270a883454'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/finzy'>Apply now</a> */}
@@ -954,9 +1026,14 @@ const handleClickOpen90 = () => {
            <p>  Features:Unsecured Business Loans for MSMEs</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://loans.flexiloans.com/?nlp=1&partnerCode=62f5e7ab8d3qj&utm_source=partner&utm_medium=credithaat&utm_campaign=CreditHaatSMS'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://loans.flexiloans.com/?nlp=1&partnerCode=62f5e7ab8d3qj&utm_source=partner&utm_medium=credithaat&utm_campaign=CreditHaatSMS'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen2}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -1023,7 +1100,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.homecredit.co.in/en'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.homecredit.co.in/en'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/hci'>Apply now</a> */}
@@ -1092,7 +1172,7 @@ const handleClickOpen90 = () => {
            href='https://iifl-loans.finbox.in/?partnerCode=CH_KOIRUD&agentCode=applinkbl'>Apply now</a> */}
           <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.credithaat.com/pl_journey'>Apply now</a>  
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a> 
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/iiflbl_old'>Apply now</a> */}
@@ -1161,7 +1241,7 @@ const handleClickOpen90 = () => {
            href='https://iifl-loans.finbox.in/?partnerCode=CH_KHSLZR&agentCode=applink'>Apply now</a> */}
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.credithaat.com/pl_journey'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/iifl'>Apply now</a> */}
@@ -1226,7 +1306,8 @@ const handleClickOpen90 = () => {
            <div className='anothertext'>
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.iifl.com/gold-loans'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+          {/* href='https://www.iifl.com/gold-loans'>Apply now</a> /*}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/iiflgoldloan'>Apply now</a> */}
@@ -1287,9 +1368,14 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://play.google.com/store/apps/details?id=com.incred.customer&hl=en_IN&gl=IN'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://play.google.com/store/apps/details?id=com.incred.customer&hl=en_IN&gl=IN'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/incred_choj'>Apply now</a></button><span> */}
@@ -1409,9 +1495,14 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://a.krdt.be/02Je/chapi'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://a.krdt.be/02Je/chapi'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/kreditbee'>Apply now</a></button><span> */}
@@ -1475,7 +1566,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://web.moneytap.com/fa/#/qual/quick-profile?utm_source=mpx_hicredit&utm_medium=Multi&utm_campaign=Pilot1&utm_content=CL'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://web.moneytap.com/fa/#/qual/quick-profile?utm_source=mpx_hicredit&utm_medium=Multi&utm_campaign=Pilot1&utm_content=CL'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/moneytap'>Apply now</a> */}
@@ -1537,9 +1631,14 @@ const handleClickOpen90 = () => {
            <p> Features:Personal Loans for Salaried andSelf Employed Individuals</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://moneyviewloans.app.link/MUxHSflNMab'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://moneyviewloans.app.link/MUxHSflNMab'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/moneyviewnew'>Apply now</a></button><span> */}
@@ -1601,9 +1700,14 @@ const handleClickOpen90 = () => {
            <p>Amount range: ₹1,000-₹2,00,000</p>
            <p>Features:Short Term Personal Loans</p>
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://click.mpkt.to/jr2q/74y7t9t9'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://click.mpkt.to/jr2q/74y7t9t9'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://app.credithaat.com/pl_journey'>Apply now</a></button><span> */}
@@ -1667,7 +1771,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://navi.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://navi.com/'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/navi'>Apply now</a> */}
@@ -1732,7 +1839,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://nira.onelink.me/Iptv?pid=credithaat_int&af_siteid=CHAPP&c=CHAPP&af_cost_model=CPI&af_ad_type=CHAPP&af_adset=APP&af_ad=App'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://nira.onelink.me/Iptv?pid=credithaat_int&af_siteid=CHAPP&c=CHAPP&af_cost_model=CPI&af_ad_type=CHAPP&af_adset=APP&af_ad=App'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/nira'>Apply now</a> */}
@@ -1800,7 +1910,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://marketplace.creditvidya.com/creditHaat?utm_source=CHAPP&utm_campaign=CHApp'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://marketplace.creditvidya.com/creditHaat?utm_source=CHAPP&utm_campaign=CHApp'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://marketplace.creditvidya.com/creditHaat/GetStarted?startPage=base'>Apply now</a> */}
@@ -1863,9 +1976,13 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.appsflyer.com/com.privo.creditsaison?pid=credithaat_int&af_siteid=CHApp&c=App&af_cost_model=CPI&af_ad_type=App&af_adset=App&af_ad=App&af_click_lookback=7d&clickid=%s&advertising_id=App'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.appsflyer.com/com.privo.creditsaison?pid=credithaat_int&af_siteid=CHApp&c=App&af_cost_model=CPI&af_ad_type=App&af_adset=App&af_ad=App&af_click_lookback=7d&clickid=%s&advertising_id=App'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.privo.creditsaison&referrer=af_tranid%3Dk8Ng2ivGjy7RiqlWBwWGgQ%26af_siteid%3DCHApp%26c%3DApp%26af_ad%3DApp%26pid%3Dcredithaat_int%26af_adset%3DApp'>Apply now</a> */}
@@ -1928,9 +2045,13 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://stash.page.link/hct2024'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://stash.page.link/hct2024'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/stashfin'>Apply now</a> */}
@@ -1995,7 +2116,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://businessloan.tatacapital.com/online/loans/business-loans/home?sourceName=CREDITHAAT#!'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://businessloan.tatacapital.com/online/loans/business-loans/home?sourceName=CREDITHAAT#!'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/tatacapital_old'>Apply now</a> */}
@@ -2058,9 +2182,14 @@ const handleClickOpen90 = () => {
            <p> Features: Lowest rate, Highest Offer</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.tatacapital.com/online/loans/personal-loans/home?sourceName=Credithaat&subsource=Credithaat&LEAD_SUB_SOURCE_1=Credithaat&cid=sms:pl:dec24:Credithaat::#'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.tatacapital.com/online/loans/personal-loans/home?sourceName=Credithaat&subsource=Credithaat&LEAD_SUB_SOURCE_1=Credithaat&cid=sms:pl:dec24:Credithaat::#'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen52}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2123,7 +2252,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.appsflyer.com/com.rupeeredee.app?pid=credithaat_int&c=CHAPP&af_adset=App&af_cost_model=CPI&af_click_lookback=7d&clickid=%s'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.appsflyer.com/com.rupeeredee.app?pid=credithaat_int&c=CHAPP&af_adset=App&af_cost_model=CPI&af_click_lookback=7d&clickid=%s'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.rupeeredee.app&referrer=af_tranid%3DFJ2hwMzuEz94KhLAStNDyg%26af_siteid%3DApp%26c%3DApp%26af_ad%3DApp%26pid%3Dcredithaat_int%26af_adset%3DCreditHaatApp'>Apply now</a> */}
@@ -2185,9 +2317,14 @@ const handleClickOpen90 = () => {
            <p> Features: Personal Loans for Salaried Individuals</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.upwards.in/login?utm_source=partner_hicredit&utm_campaign=partner_hicredit&utm_medium=partner_hicredit'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.upwards.in/login?utm_source=partner_hicredit&utm_campaign=partner_hicredit&utm_medium=partner_hicredit'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen10}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2248,7 +2385,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://credit-haat.onelink.me/LP79?af_xp=custom&pid=Credit-Haat&c=Credit-Haat&is_retargeting=true&af_reengagement_window=7d&af_inactivity_window=7d&af_click_lookback=30d'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://credit-haat.onelink.me/LP79?af_xp=custom&pid=Credit-Haat&c=Credit-Haat&is_retargeting=true&af_reengagement_window=7d&af_inactivity_window=7d&af_click_lookback=30d'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.fastbanking&referrer=af_tranid%3DqZTvyWT76lwGuPOLhC6yQg%26af_siteid%3D%7Baffiliate_id%7D%26c%3D%7BCampaign%7D%26af_ad%3D%7BAd%7D%26pid%3Dcredithaat_int%26af_adset%3D%7BAdset%7D&pli=1'>Apply now</a> */}
@@ -2308,9 +2448,14 @@ const handleClickOpen90 = () => {
            <p> Features: Assured approval for card issuance.</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://anq.finance/?referrer=singular_click_id%3D03c469c0-ab9a-456b-b4d2-072c314b8e45'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://anq.finance/?referrer=singular_click_id%3D03c469c0-ab9a-456b-b4d2-072c314b8e45'>Apply now</a> */}
+           </button><span>
             <button className="secondonebutton" onClick={handleClickOpen65}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2366,9 +2511,14 @@ const handleClickOpen90 = () => {
            <p> Features: Assured approval for card issuance.</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://play.google.com/store/apps/details?id=com.rupicard&referrer=utm_source%3Dpartner%26utm_medium%3DCREDITHAAT%26utm_campaign%3D'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://play.google.com/store/apps/details?id=com.rupicard&referrer=utm_source%3Dpartner%26utm_medium%3DCREDITHAAT%26utm_campaign%3D'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen11}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2434,9 +2584,14 @@ const handleClickOpen90 = () => {
            <p> Features: 	Loans for salaried and self employed</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://smartcoin.onelink.me/KLIY/CredithaatMarketing'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://smartcoin.onelink.me/KLIY/CredithaatMarketing'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://app.olyv.co.in/?utm_source=credithaat&utm_campaign=credithaat_link2'>Apply now</a></button><span> */}
@@ -2496,9 +2651,14 @@ const handleClickOpen90 = () => {
            <p> Features: Loans for the way you live</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://play.google.com/store/apps/details?id=com.branch_international.branch.branch_demo_android&referrer=utm_source%3DCredithaat%26lead_id%3DCHAPP'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://play.google.com/store/apps/details?id=com.branch_international.branch.branch_demo_android&referrer=utm_source%3DCredithaat%26lead_id%3DCHAPP'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen36}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2557,8 +2717,11 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://kinaracapital.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+
             {/* <a 
+            href='https://kinaracapital.com/'>Apply now</a>
+
            style={{ textDecoration: "none", color: "white" }}
            href='https://loan.credithaat.com/h5/kinaracapital'>Apply now</a> */}
            </button><span>
@@ -2620,9 +2783,14 @@ const handleClickOpen90 = () => {
            <p> Features: Instant approval</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://slice.go.link/glNS6'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://slice.go.link/glNS6'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen38}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2680,9 +2848,14 @@ const handleClickOpen90 = () => {
            <p> Features: Approval on low scores, instant disbursals</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://trustpaisa.com/?utm_source=credithaat&utm_medium=cpa&utm_campaign=CHAPP&click_id=CLICKID'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://trustpaisa.com/?utm_source=credithaat&utm_medium=cpa&utm_campaign=CHAPP&click_id=CLICKID'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://trustpaisa.com/?utm_source=credithaat&utm_medium=cpa&utm_campaign=credithaat_cpa'>Apply now</a></button><span> */}
@@ -2746,8 +2919,10 @@ const handleClickOpen90 = () => {
            <div className='anothertext'>
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://rupeek.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
            {/* <a 
+            href='https://rupeek.com/'>Apply now</a>
+
            style={{ textDecoration: "none", color: "white" }}
            href='https://app.credithaat.com/Rupeek'>Apply now</a> */}
            </button><span>
@@ -2814,8 +2989,13 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://applyonline.ramfincorp.com/?utm_source=Credithaat'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
             {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://applyonline.ramfincorp.com/?utm_source=CH_App&utm_campaign=CHAPP&utm_medium=CHAPP&utm_trackingid=CLICKID'>Apply now</a> */}
+
+            {/* <a 
+         href='https://applyonline.ramfincorp.com/?utm_source=Credithaat'>Apply now</a>
            style={{ textDecoration: "none", color: "white" }}
            href='https://play.google.com/store/apps/details?id=com.ramfincorploan&hl=en_IN'>Apply now</a> */}
            </button><span>
@@ -2879,9 +3059,14 @@ const handleClickOpen90 = () => {
            <p> Features: Instant approval</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.rupee112.com/apply-now?utm_source=credithaat&utm_medium=credithaat&utm_campaign=CHAPP'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+          href='https://www.rupee112.com/apply-now?utm_source=credithaat&utm_medium=CHAPP&utm_campaign=CLICKID'>Apply now</a> */}
+          </button><span>
            <button className="secondonebutton" onClick={handleClickOpen42}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -2939,9 +3124,14 @@ const handleClickOpen90 = () => {
            <p> Features: Instant approval</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://instant-pocket-loan.poonawallafincorp.com/?utm_DSA_Code=PMH00235&UTM_Partner_Name=CREDITHAAT&UTM_Partner_Medium=CHAPP&UTM_Partner_AgentCode=PFLCREDITHAAT&UTM_Partner_ReferenceID=CLICKID'>Apply now</a></button>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://instant-pocket-loan.poonawallafincorp.com/?utm_DSA_Code=PMH00235&UTM_Partner_Name=CREDITHAAT&UTM_Partner_Medium=CHAPP&UTM_Partner_AgentCode=PFLCREDITHAAT&UTM_Partner_ReferenceID=CLICKID'>Apply now</a> */}
+           </button>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://instant-pocket-loan.poonawallafincorp.com/?utm_DSA_Code=PMH00235&UTM_Partner_Name=CREDITHAAT&UTM_Partner_Medium=SMS&UTM_Partner_AgentCode=PFLCREDITHAAT&UTM_Partner_ReferenceID=CREDITHAATPFL00000001'>Apply now</a></button> */}
@@ -3004,9 +3194,14 @@ const handleClickOpen90 = () => {
            <p> Features: Instant approval</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://loans.theunitybank.com/unity-pl-ui/page/exclusion/login/logindetails?utm_source=partnership&utm_medium=credithaat&utm_campaign=CLICKID'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://loans.theunitybank.com/unity-pl-ui/page/exclusion/login/logindetails?utm_source=partnership&utm_medium=credithaat&utm_campaign=CLICKID'>Apply now</a> */}
+           </button><span>
 {/*             
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
@@ -3076,7 +3271,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://zype.onelink.me/vx8a?af_xp=custom&pid=CustomerSource&af_dp=com.zype.mobile%3A%2F%2F&deep_link_value=myZype&af_click_lookback=30d&c=CH'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://zype.onelink.me/vx8a?af_xp=custom&pid=CustomerSource&af_dp=com.zype.mobile%3A%2F%2F&deep_link_value=myZype&af_click_lookback=30d&c=CH'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://zype.sng.link/Bjygt/4968?_dl=com.zype.mobile'>Apply now</a> */}
@@ -3148,9 +3346,14 @@ const handleClickOpen90 = () => {
            <p> Features: 100% digital loans process</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.tataneu.com/v2/finance/pl-marketplace/landing?utm_source=Partnerships_external&utm_medium=CreditHaat&utm_campaign=MKT_ST-FS_HD-PRF_BS-ALL_PL-BOT_CH-AL_TP-PLC_DT-20250317_CT-PL_OJ-ACQ_LP-BR_BD-PLN_CO-PL_Credithaat&utm_code=generic&utm_channel=b2b2c_credithaat'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.tataneu.com/v2/finance/pl-marketplace/landing?utm_source=Partnerships_external&utm_medium=CreditHaat&utm_campaign=MKT_ST-FS_HD-PRF_BS-ALL_PL-BOT_CH-AL_TP-PLC_DT-20250317_CT-PL_OJ-ACQ_LP-BR_BD-PLN_CO-PL_Credithaat&utm_code=generic&utm_channel=b2b2c_credithaat'>Apply now</a> */}
+           </button><span>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://www.tatadigital.com/v2/finance/pl-marketplace/landing?utm_source=CreditHaat&utm_medium=pl_offline&utm_campaign=pl_credithaat_campaign'>Apply now</a></button><span> */}
@@ -3212,10 +3415,15 @@ const handleClickOpen90 = () => {
            <p> Features: Apply for Credit Card Online - Get Instant Approval</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=MRTB&DSAcode=XVBP&LGcode=VP1&LCcode=VP2&LC2=CHAPP&SMcode=U2303#nbb'>Apply now</a></button><span>
-           {/* <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button></span> */}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://applyonline.hdfcbank.com/cards/credit-cards.html?utm_content=DGPI&Channel=DSA&DSACode=XVBP&SMCode=U2303&LGCode=DGPI&LCCode=XVBP&LC2=CHAPP'>Apply now</a> */}
+           </button><span>
+           {/* <button className="secondonebutton" onClick={handleClickOpen47}>Know more</button>https://applyonline.hdfcbank.com/cards/credit-cards.html?CHANNELSOURCE=MRTB&DSAcode=XVBP&LGcode=VP1&LCcode=VP2&LC2=CHAPP&SMcode=U2303#nbb</span> */}
            
             <button className="secondonebutton"><a
                   style={{ textDecoration: "none", color: "white" }}
@@ -3292,9 +3500,10 @@ const handleClickOpen90 = () => {
            <div className='anothertext'>
            <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://indiagold.co/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
+          href='https://indiagold.co/'>Apply now</a>
            href='https://app.credithaat.com/GoldJourney'>Apply now</a> */}
            </button><span>
            <button className="secondonebutton" onClick={handleClickOpen48}>Know more</button></span>
@@ -3358,7 +3567,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.appsflyer.com/com.lendingplate?pid=credithaat_int&af_siteid=CHAPP&c=APP&af_ad_type=App&af_ad=App&af_click_lookback=30d&clickid=%s'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.appsflyer.com/com.lendingplate?pid=credithaat_int&af_siteid=CHAPP&c=APP&af_ad_type=App&af_ad=App&af_click_lookback=30d&clickid=%s'>Apply now</a> */}
             {/* <a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://bit.ly/LPCHAPP'>Apply now</a> */}
@@ -3422,9 +3634,14 @@ const handleClickOpen90 = () => {
            <p> Features: Instant approval</p>
            
            <div className='anothertext'>
-            <button className="firstonebutton"><a 
+            <button className="firstonebutton">
+              <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://ajamservices.g2afse.com/click?pid=12&offer_id=2&sub1=CH&sub2=CLICKID'>Apply now</a></button>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+              {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://ajamservices.g2afse.com/click?pid=12&offer_id=2&sub1=CH&sub2=CLICKID'>Apply now</a> */}
+           </button>
            {/* <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
            href='https://bit.ly/41k4YO7'>Apply now</a></button> */}
@@ -3487,9 +3704,14 @@ const handleClickOpen90 = () => {
            <p> Features: Paper-less, minimal documentation<br></br>(Only Aadhar, Pan and 6 months bank statement), entirely digital loan</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton"><a 
+           <button className="firstonebutton">
+            <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://crht.ayushpay.com'>Apply now</a></button><span>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://crht.ayushpay.com'>Apply now</a> */}
+           </button><span>
            <button className="secondonebutton" onClick={handleClickOpen51}>Know more</button></span>
            <BootstrapDialog
                 onClose={handleClose}
@@ -3546,10 +3768,13 @@ const handleClickOpen90 = () => {
            <p> Features: NO bank statement, Quick approval</p>
            
            <div className='anothertext'>
-           <button className="firstonebutton">
-            <a 
+           <button className="firstonebutton"><a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.appsflyer.com/rapidrupee.app?pid=credithaat_int&af_siteid=CHAPP&c=CHAPP&af_cost_model=CPR&af_ad_type=Marketplace&af_click_lookback=7d&clickid=%s'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.appsflyer.com/rapidrupee.app?pid=credithaat_int&af_siteid=CHAPP&c=CHAPP&af_cost_model=CPR&af_ad_type=Marketplace&af_click_lookback=7d&clickid=%s'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen66}>Know more</button></span>
            <BootstrapDialog
@@ -3672,7 +3897,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://loans.apps.herofincorp.com/en/personal-loan?af_xp=custom&af_sub1=CHAPP&pid=CreditHaat&is_retargeting=true&utm_content=CLICKID&utm_source=partnership&utm_campaign=CreditHaat&af_reengagement_window=30d&c=Credithaat_new'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://loans.apps.herofincorp.com/en/personal-loan?af_xp=custom&af_sub1=CHAPP&pid=CreditHaat&is_retargeting=true&utm_content=CLICKID&utm_source=partnership&utm_campaign=CreditHaat&af_reengagement_window=30d&c=Credithaat_new'>Apply now</a> */}
             </button><span>
                           <button className="secondonebutton" onClick={handleClickOpen68}>Know more</button></span>
            <BootstrapDialog
@@ -3733,7 +3961,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://web.fatakpay.com/authentication/login?utm_source=805_IS6A9&Utm_medium=CHAPP'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://web.fatakpay.com/authentication/login?utm_source=805_IS6A9&Utm_medium=CHAPP'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen69}>Know more</button></span>
            <BootstrapDialog
@@ -3795,7 +4026,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://online.flexsalary.com/CustomerLogin/Index?CampaignID=577758859#x'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://online.flexsalary.com/CustomerLogin/Index?CampaignID=577758859#x'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen70}>Know more</button></span>
            <BootstrapDialog
@@ -3857,7 +4091,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://app.appsflyer.com/com.anytimerupee?pid=credithaat_int&c=CHAPP&af_cost_model=CPI&af_ad_type=CHAPP&af_click_lookback=7d&clickid=%s&advertising_id={gaid}&is_incentivized={true\false}'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.appsflyer.com/com.anytimerupee?pid=credithaat_int&c=CHAPP&af_cost_model=CPI&af_ad_type=CHAPP&af_click_lookback=7d&clickid=%s&advertising_id={gaid}&is_incentivized={true\false}'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen88}>Know more</button></span>
            <BootstrapDialog
@@ -3919,7 +4156,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://abhicash.sng.link/Ddpes/90d6'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://abhicash.sng.link/Ddpes/90d6'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen71}>Know more</button></span>
            <BootstrapDialog
@@ -3977,7 +4217,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://w6em.app.link/SB5HplfbVzb?%243p=a_credithaat&~campaign=CHAPP&~click_id=CLICKID'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://w6em.app.link/SB5HplfbVzb?%243p=a_credithaat&~campaign=CHAPP&~click_id=CLICKID'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen72}>Know more</button></span>
            <BootstrapDialog
@@ -4041,7 +4284,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://instamoney.page.link/WhqG'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://instamoney.page.link/WhqG'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen89}>Know more</button></span>
            <BootstrapDialog
@@ -4103,7 +4349,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.aspirenbfc.in/login?code=ASPC6MEWI'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.aspirenbfc.in/login?code=ASPC6MEWI'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen73}>Know more</button></span>
            <BootstrapDialog
@@ -4161,9 +4410,12 @@ const handleClickOpen90 = () => {
            
            <div className='anothertext'>
            <button className="firstonebutton">
-            <a 
+           <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.kissht.com/paywithring'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.kissht.com/paywithring'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen74}>Know more</button></span>
            <BootstrapDialog
@@ -4223,9 +4475,13 @@ const handleClickOpen90 = () => {
            
            <div className='anothertext'>
            <button className="firstonebutton">
-            <a 
+          <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.loans24.co.in/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.loans24.co.in/'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen75}>Know more</button></span>
            <BootstrapDialog
@@ -4287,7 +4543,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.bajajfinservmarkets.in/apply-for-personal-loan-finservmarkets/?utm_source=Lead_Partnerships&utm_medium=SOL&utm_campaign=%7bvariable%7d&utm_content=Website&utm_term=CreditHaat'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.bajajfinservmarkets.in/apply-for-personal-loan-finservmarkets/?utm_source=Lead_Partnerships&utm_medium=SOL&utm_campaign=%7bvariable%7d&utm_content=Website&utm_term=CreditHaat'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen76}>Know more</button></span>
            <BootstrapDialog
@@ -4349,7 +4608,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.paisabazaar.com/digital-lending/?bank_type=0&utm_source=pb_aff&utm_medium=PBAFCH01&utm_term=CLICKID&utm_content=CPL&utm_campaign=Personal_Loan'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.paisabazaar.com/digital-lending/?bank_type=0&utm_source=pb_aff&utm_medium=PBAFCH01&utm_term=CLICKID&utm_content=CPL&utm_campaign=Personal_Loan'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen77}>Know more</button></span>
            <BootstrapDialog
@@ -4411,7 +4673,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://ajamservices.g2afse.com/click?pid=12&offer_id=10&sub1=CHAPP&sub2=CLICKID'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://ajamservices.g2afse.com/click?pid=12&offer_id=10&sub1=CHAPP&sub2=CLICKID'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen78}>Know more</button></span>
            <BootstrapDialog
@@ -4473,7 +4738,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://brightloans.in/apply-now?utm_source=credithaat&utm_medium=web&utm_campaign=credithaat'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://brightloans.in/apply-now?utm_source=credithaat&utm_medium=web&utm_campaign=credithaat'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen79}>Know more</button></span>
            <BootstrapDialog
@@ -4535,7 +4803,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://web.rapidmoney.in/borrower/login?utm_source=CreditHatt&utm_extsource=partner&utm_medium=whatsapp&utm_campaign=abc&utm_campaignID=1234'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://web.rapidmoney.in/borrower/login?utm_source=CreditHatt&utm_extsource=partner&utm_medium=whatsapp&utm_campaign=abc&utm_campaignID=1234'>Apply now</a> */}
             </button><span>
           <button className="secondonebutton" onClick={handleClickOpen80}>Know more</button></span>
            <BootstrapDialog
@@ -4597,7 +4868,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://rupeeontime.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://rupeeontime.com/'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen81}>Know more</button></span>
            <BootstrapDialog
@@ -4658,7 +4932,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.loan112.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.loan112.com/'>Apply now</a> */}
             </button><span>
           <button className="secondonebutton" onClick={handleClickOpen82}>Know more</button></span>
            <BootstrapDialog
@@ -4717,9 +4994,12 @@ const handleClickOpen90 = () => {
            
            <div className='anothertext'>
            <button className="firstonebutton">
-            <a 
+          <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.bharatloan.com/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.bharatloan.com/'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen83}>Know more</button></span>
            <BootstrapDialog
@@ -4780,7 +5060,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://digicredit.in/?utm_source=CreditHaat&utm_medium=referral&utm_campaign=CH_LendersPage'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://digicredit.in/?utm_source=CreditHaat&utm_medium=referral&utm_campaign=CH_LendersPage'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen84}>Know more</button></span>
            <BootstrapDialog
@@ -4842,7 +5125,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://lamf.fibe.in/SignUp?utm_source=LAMF_CREDITHAAT&sourceId=LAMF'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://lamf.fibe.in/SignUp?utm_source=LAMF_CREDITHAAT&sourceId=LAMF'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen85}>Know more</button></span>
            <BootstrapDialog
@@ -4905,7 +5191,10 @@ const handleClickOpen90 = () => {
            <button className="firstonebutton">
             <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.zestmoney.in/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.zestmoney.in/authentication?isSignup=true&utm_source=Affiliate&utm_medium=HiCredit&utm_campaign=Bau-Cl'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen86}>Know more</button></span>
            <BootstrapDialog
@@ -4964,9 +5253,12 @@ const handleClickOpen90 = () => {
            
            <div className='anothertext'>
            <button className="firstonebutton">
-            <a 
+           <a 
            style={{ textDecoration: "none", color: "white" }}
-           href='https://www.idfcfirst.bank.in/'>Apply now</a>
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            {/* <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://www.idfcfirst.bank.in/'>Apply now</a> */}
             </button><span>
             <button className="secondonebutton" onClick={handleClickOpen87}>Know more</button></span>
            <BootstrapDialog
@@ -5012,6 +5304,440 @@ const handleClickOpen90 = () => {
         </div>
         </div>
         {/* --------------------------------ended--------------------------------------------- */}      
+      {/*---------------------------------------new added at 29 june 2026--72---------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={ratecut} alt='Lenderimage' style={{ height: "50px" , width :"50px"}}></img>
+            <p>RateCut</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹5,000-₹1,00,000</p>
+           <p> Features: Personal Loan from RateCut</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen91}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open91}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Gajendra Singh
+                    <br />
+                    Company name: Leverse Labs Private Limited
+                    <br />
+                    Contact phone : +91 83759 33223
+                    <br/>
+                    Email: grievance@ratecut.in
+                    <br />
+                    CustomerCare : +91 83759 33223 , support@ratecut.in
+                    <br/>
+                    GRO link: <a href="https://www.ratecut.in/grievance">https://www.ratecut.in/grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+
+        {/*-----------------------------------------73-- muthoot red -------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={muthootred} alt='Lenderimage'></img>
+            <p>Muthoot Red</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹5,000-₹1,00,000</p>
+           <p> Features: Lowest Interest Rates Guaranteed</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+           <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen92}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open92}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    PrincipalNodalOfficer: Varughese A.S.(General Manager)
+                    <br />
+                    Company name: Muthoot Finance Limited
+                    <br />
+                    Contact phone(Grievance) : +91-114 6697754(North) /+91-484-4804074 ,+91-484-4804075(South)
+                    <br/>
+                    Email: 
+                    <br />
+                    CustomerCare :
+                    <br/>
+                    GRO link: <a href="https://www.muthootfinance.com/customer-service">https://www.muthootfinance.com/customer-service</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+         {/*-----------------------------------------74-- muthoot blue -------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={muthootblue} alt='Lenderimage'></img>
+            <p>Muthoot Blue</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹5,000-₹1,00,000</p>
+           <p> Features: Intant personal loans</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen93}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open93}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Ms. Julia Mathew
+                    <br />
+                    Company name: Muthoot FinCorp
+                    <br />
+                    Contact phone : 0471- 4911626 
+                    <br/>
+                    Email: pno@muthootfincorp.com 
+                    <br />
+                    CustomerCare : 1800-102-1616 , customercare@muthoot.com
+                    <br/>
+                    GRO link: <a href="https://muthootfincorp.com/customer-grievance-redressal-policy">https://muthootfincorp.com/customer-grievance-redressal-policy</a>
+                   <br/>
+                   Note: Contact between 09.00 am to 6.00 pm (Monday to Saturday except on National Holidays)
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div> 
+
+{/*-----------------------------------------75-- creditsea-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={creditsea} alt='Lenderimage'></img>
+            <p>CreditSea</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹20,000-₹1,00,000</p>
+           <p> Features: Get the lowest interest rate</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen94}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open94}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Romel Kumar
+                    <br />
+                    Company name: Meghdoot Mercantile Private Limited
+                    <br />
+                    Contact phone : +91 9589393499
+                    <br/>
+                    Email: romelkumar@creditsea.com
+                    <br/>
+                    CustomerCare : +91 8827973499
+                    <br/>
+                    GRO link: <a href="https://www.creditsea.com/privacy-policy">https://www.creditsea.com/privacy-policy</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+{/*-----------------------------------------75-- Abhimoney-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={abhimoney} alt='Lenderimage'></img>
+            <p>AbhiMoney</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹2,000-₹30,000</p>
+           <p> Features: Quick disbursement</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen95}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open95}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Ms. Komal Bisht | Mr. Mohit Singh
+                    <br />
+                    Company name: CNMP Investments Private Limited
+                    <br />
+                    Contact phone : +91 92306 93366 | +91 8448161354
+                    <br/>
+                    Email: pno@cnmp.in | gro@abhimoney.in
+                    <br/>
+                    CustomerCare : +91 9217027700 / care@abhimoney.in 
+                    <br/>
+                    GRO link: <a href="https://cnmp.in/static/media/Grievance2.b973f2c1b2e8477efb8d.pdf">https://cnmp.in/static/media/Grievance2.b973f2c1b2e8477efb8d.pdf</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+
+        {/*-----------------------------------------76-- Creditmines-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={creditmines} alt='Lenderimage'></img>
+            <p>CreditMines</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹2,000-₹30,000</p>
+           <p> Features: Quick disbursement</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen96}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open96}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. JayPrakash M
+                    <br />
+                    Company name: Mahan Industries Ltd.
+                    <br />
+                    Contact phone : +91 8750348798
+                    <br/>
+                    Email: gro@creditmines.com
+                    <br/>
+                    CustomerCare : care@creditmines.com 
+                    <br/>
+                    {/* GRO link: <a href="https://creditmines.com/terms-conditions/">https://creditmines.com/terms-conditions/</a> */}
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+
+        {/*-----------------------------------------77-- TrueRupee-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={truerupee} alt='Lenderimage'></img>
+            <p>TrueRupee</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹2,000-₹30,000</p>
+           <p> Features: Quick disbursement</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen97}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open97}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Manjeet
+                    <br />
+                    Company name: Tycoon Credit & Portfolio Ltd.
+                    <br />
+                    Contact phone : +91 8278508032
+                    <br/>
+                    Email: gro@truerupee.com
+                    <br/>
+                    CustomerCare : 08278508032 / care@truerupee.com
+                    <br/>
+                    {/* GRO link: <a href="https://creditmines.com/terms-conditions/">https://creditmines.com/terms-conditions/</a> */}
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+
       </div>
       <NewHomePageFooter/>
       <NewCityFooter/>
