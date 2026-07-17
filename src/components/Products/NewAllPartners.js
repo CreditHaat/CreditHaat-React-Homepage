@@ -83,6 +83,7 @@ import creditsea from "../NewHomePage/lendingpartimages/creditsealogo1.png";
 import abhimoney from "../NewHomePage/lendingpartimages/abhimoneyimg.png";
 import creditmines from "../NewHomePage/lendingpartimages/creditminesimg.png";
 import truerupee from "../NewHomePage/lendingpartimages/truerupeeimg.png";
+import fatakpaynew from "../NewHomePage/lendingpartimages/fatakpaynewlogo.jpeg";
 
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
@@ -3950,7 +3951,7 @@ const handleClickOpen97 = () => {
         {/*-----------------------------------------52---------------------------------------------*/}
         <div className='newallfirst'>
             <div className='firstoneimage'>
-            <img src={fatakpayimage} alt='Lenderimage'></img>
+            <img src={fatakpaynew} alt='Lenderimage'></img>
             <p>FatakPay</p> 
             </div>
            <div className='secondonetext'>
@@ -3994,17 +3995,17 @@ const handleClickOpen97 = () => {
                     }}
                   >
                     <br/>
-                    GrievanceRedressalOfficer: Ms. Adv. Varsha Manoharan
+                    GrievanceRedressalOfficer: Vaishnavi Batulkar
                     <br />
-                    Company name: FatakPay Digital Pvt. Ltd.
+                    Company name: FDPL Finance Pvt. Ltd
                     <br />
-                    Contact phone: +91-9076096209 / 07969699883
+                    Contact phone: +91-9076058709 / 07969699880 
                     <br />
-                    Email: escalation@fatakpay.com
+                    Email: escalation@fdplfinance.com
                     <br/>
-                    CustomerCare:  +91 9987178747 / 09240271272 , help@fatakpay.com
+                    CustomerCare: +91-9076057809 , help@fdplfinance.com
                     <br />
-                    GRO link: <a href="https://www.fatakpay.com/redressal">https://www.fatakpay.com/redressal</a>
+                    GRO link: <a href="https://www.fdplfinance.com/policies/grievance-redressal">https://www.fdplfinance.com/policies/grievance-redressal</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
