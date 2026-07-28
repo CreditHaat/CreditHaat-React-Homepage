@@ -148,3 +148,21 @@ button:hover {
  
     
 }
+
+.checkbox-group {
+  margin: 15px 0;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin-top: 3px;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+

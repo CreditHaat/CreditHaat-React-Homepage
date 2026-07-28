@@ -28,9 +28,10 @@ const ContactUs = () => {
     mobile: '',
     email: '',
     query: '',
-    message: ''
+    message: '',
+    acceptedTerms: ''
   });
-
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false); // State for modal visibility
 
   useEffect(() => {
@@ -79,6 +80,10 @@ const ContactUs = () => {
       newErrors.message = 'Message is required';
       isValid = false;
     }
+    if (!acceptedTerms) {
+  newErrors.acceptedTerms = "Please accept the terms.";
+  isValid = false;
+}
 
     setErrors(newErrors);
     return isValid;
@@ -224,6 +229,31 @@ const ContactUs = () => {
                 placeholder="Message"
               ></textarea>
               {errors.message && <span className="error-text">{errors.message}</span>}
+            </div>
+            <div className="form-group-contact checkbox-group">
+              <label className="checkbox-label">
+                <input
+                  type="checkbox"
+                  checked={acceptedTerms}
+                  onChange={(e) => {
+                    setAcceptedTerms(e.target.checked);
+
+                    if (errors.acceptedTerms) {
+                      setErrors((prev) => ({
+                        ...prev,
+                        acceptedTerms: ""
+                      }));
+                    }
+                  }}
+                />
+                <span>
+                  I authorize CreditHaat to Call, SMS or communicate via WhatsApp regarding my request. This consent overrides any registration for DNC / NDNC.
+                </span>
+              </label>
+
+              {errors.acceptedTerms && (
+                <span className="error-text">{errors.acceptedTerms}</span>
+              )}
             </div>
             <div style={{ textAlign: 'center' }}>
               <button
