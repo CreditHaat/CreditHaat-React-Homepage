@@ -247,7 +247,7 @@ const ContactUs = () => {
                   }}
                 />
                 <span>
-                  I authorize CreditHaat to Call, SMS or communicate via WhatsApp regarding my request. This consent overrides any registration for DNC / NDNC.
+                  I authorize CreditHaat to Call, SMS or communicate via WhatsApp and RCS regarding my request. This consent overrides any registration for DNC / NDNC.
                 </span>
               </label>
 
