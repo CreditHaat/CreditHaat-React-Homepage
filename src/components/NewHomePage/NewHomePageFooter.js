@@ -55,6 +55,9 @@ const NewHomePageFooter = () => {
             <li class="footer-link_item">
               <a class="footer-link_item" href="/CreditScore">Credit score</a>
             </li>
+            <li class="footer-link_item">
+              <a class="footer-link_item" href="/SelectionCriteria">Gradation</a>
+            </li>
               <li class="footer-link_item">
               <a class="footer-link_item" href="https://sachet.rbi.org.in/">RBI Sachet Portal</a>
             </li>
