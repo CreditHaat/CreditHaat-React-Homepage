@@ -220,7 +220,8 @@ padding-top: 70px;
               <h1>Choose the best credit card for you</h1>
               <p>Discover credit cards with exclusive rewards and perks.</p>
               <div>
-                <Link to="/CreditCard">
+                {/* <Link to="/CreditCard"> */}
+                <Link to="https://app.credithaat.com/creditcard?source=cc_homepage&dsa=755931081">
                   <button type="submit" className="btn1" style={{ backgroundColor: "#3e2780", color: "#ffffff", padding: "10px" }}>Get started</button>
                 </Link>
               </div>

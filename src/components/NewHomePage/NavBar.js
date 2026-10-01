@@ -57,7 +57,8 @@ function NavBar() {
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/creditcard" activeClassName="active">
+                      {/* <NavLink to="/creditcard" activeClassName="active"> */}
+                      <NavLink to="https://app.credithaat.com/creditcard?source=cc_homepage&dsa=755931081" activeClassName="active">
                         Credit cards
                       </NavLink>
                     </li>

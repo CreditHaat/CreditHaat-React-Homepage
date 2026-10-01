@@ -28,7 +28,8 @@ const NewHomePageFooter = () => {
               <a class="footer-link_item" href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" >Business loan</a>
             </li>
             <li class="footer-link_item">
-              <a class="footer-link_item" href="/creditcard">Credit cards</a>
+              {/* <a class="footer-link_item" href="/creditcard">Credit cards</a> */}
+              <a class="footer-link_item" href="https://app.credithaat.com/creditcard?source=cc_homepage&dsa=755931081">Credit cards</a>
             </li>
 
             {/* <li class="footer-link_item">

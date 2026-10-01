@@ -21,7 +21,8 @@ const NewCityFooter = () => {
           <a href="https://app.credithaat.com/pl_journey?dsa=285197218&source=PLJourney" style={{color:"white",marginLeft:"-10px"}}>Marriage loan</a>
         </div>
         <div class="col-sm text-right" >
-          <a href="/creditCard" style={{color:"white",marginLeft:"-10px"}}>Secured cards</a>
+          {/* <a href="/creditCard" style={{color:"white",marginLeft:"-10px"}}>Secured cards</a> */}
+          <a href="https://app.credithaat.com/creditcard?source=cc_homepage&dsa=755931081" style={{color:"white",marginLeft:"-10px"}}>Secured cards</a>
         </div>
        
       </div>

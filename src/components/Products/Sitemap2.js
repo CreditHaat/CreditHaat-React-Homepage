@@ -281,7 +281,8 @@ const Sitemap2 = () => {
             <li><a href="/BusinessLoanCity/Dahod">Business Loan in Dahod</a></li>
                   </ul>
                 </li>
-                <li><a href="/CreditCard">Credit Card</a></li>
+                {/* <li><a href="/CreditCard">Credit Card</a></li> */}
+                <li><a href="https://app.credithaat.com/creditcard?source=cc_homepage&dsa=755931081">Credit Card</a></li>
               </ul>
             </li>
             <li><a href="/Contactus">Contact us</a></li>

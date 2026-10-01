@@ -27,6 +27,7 @@ import ExperianTerms from './components/NewHomePage/experianTerms';
 import SelectionCriteria from './components/NewHomePage/SelectionCriteria';
 
 import Hdfc  from './components/Products/hdfc';
+import CleanExternalLinks from "./CleanExternalLinks";
 // import PLoanSecondPage from './components/Products/PLoanSecondPage';
 // import PLoanThirdPage from './components/Products/PLoanThirdPage';
 // import BusinessLoanPageTwo from './components/Products/BusinessLoanPageTwo';
@@ -38,6 +39,7 @@ import Hdfc  from './components/Products/hdfc';
 function App() {
   return (
     <Router>
+     <CleanExternalLinks />
       <Routes>
         <Route path="/footer" element={<Footer />} />
         <Route path="/" element={<HomePage />} />
