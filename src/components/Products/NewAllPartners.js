@@ -84,6 +84,7 @@ import abhimoney from "../NewHomePage/lendingpartimages/abhimoneyimg.png";
 import creditmines from "../NewHomePage/lendingpartimages/creditminesimg.png";
 import truerupee from "../NewHomePage/lendingpartimages/truerupeeimg.png";
 import fatakpaynew from "../NewHomePage/lendingpartimages/fatakpaynewlogo.jpeg";
+import jetfund from "../NewHomePage/lendingpartimages/jetfundlogo.png";
 
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
@@ -189,6 +190,7 @@ function NewAllPartners({ companies }) {
   const [open95,setOpen95] = useState(false);
   const [open96, setOpen96] = useState(false);
   const [open97, setOpen97] = useState(false);
+  const [open98, setOpen98] = useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -425,6 +427,9 @@ const handleClickOpen96 = () => {
 const handleClickOpen97 = () => {
     setOpen97(true);
 };
+const handleClickOpen98 = () => {
+    setOpen98(true);
+};
 
   const handleClose = () => {
     setOpen(false);
@@ -504,6 +509,7 @@ const handleClickOpen97 = () => {
     setOpen95(false);
     setOpen96(false);
     setOpen97(false);
+    setOpen98(false);
 
   };
 
@@ -5732,6 +5738,68 @@ const handleClickOpen97 = () => {
                     CustomerCare : 08278508032 / care@truerupee.com
                     <br/>
                     {/* GRO link: <a href="https://creditmines.com/terms-conditions/">https://creditmines.com/terms-conditions/</a> */}
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
+
+                   {/*-----------------------------------------77--JetFund-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={jetfund} alt='Lenderimage'></img>
+            <p>JetFund</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹5,000-₹1,00,000</p>
+           <p> Features: Quick disbursement</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen98}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open98}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Bilal Ahmed
+                    <br />
+                    Company name: Regency Fincorp Limited
+                    <br />
+                    Contact phone : +91 8800316732
+                    <br/>
+                    Email: gro@jetfund.in
+                    <br/>
+                    CustomerCare : 8800316528 / care@jetfund.in
+                    <br/>
+                    GRO link: <a href="https://jetfund.in/contact">https://jetfund.in/contact</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
