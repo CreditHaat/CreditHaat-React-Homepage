@@ -85,6 +85,8 @@ import creditmines from "../NewHomePage/lendingpartimages/creditminesimg.png";
 import truerupee from "../NewHomePage/lendingpartimages/truerupeeimg.png";
 import fatakpaynew from "../NewHomePage/lendingpartimages/fatakpaynewlogo.jpeg";
 import jetfund from "../NewHomePage/lendingpartimages/jetfundlogo.png";
+import KrazyBee from "../NewHomePage/NewHomePageImages/kreditbeeimageNBFC.png";
+import kubiz from "../NewHomePage/lendingpartimages/kubiz.png";
 
 import { styled } from "@mui/material/styles";
 import Dialog from "@mui/material/Dialog";
@@ -191,6 +193,8 @@ function NewAllPartners({ companies }) {
   const [open96, setOpen96] = useState(false);
   const [open97, setOpen97] = useState(false);
   const [open98, setOpen98] = useState(false);
+   const [open99, setOpen99] = useState(false);
+
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -430,6 +434,9 @@ const handleClickOpen97 = () => {
 const handleClickOpen98 = () => {
     setOpen98(true);
 };
+const handleClickOpen99 = () => {
+    setOpen99(true);
+};
 
   const handleClose = () => {
     setOpen(false);
@@ -510,7 +517,7 @@ const handleClickOpen98 = () => {
     setOpen96(false);
     setOpen97(false);
     setOpen98(false);
-
+    setOpen99(false);
   };
 
     return (
@@ -1494,12 +1501,12 @@ const handleClickOpen98 = () => {
 
         <div className='newallfirst'>
             <div className='firstoneimage'>
-            <img src={kreditbeeimage} alt='Lenderimage'></img>
-            <p>  Kreditbee</p> 
+            <img src={KrazyBee} alt='Lenderimage'></img>
+            <p>KrazyBee</p> 
             </div>
            <div className='secondonetext'>
-           <p>Amount range:₹1,000-₹3,00,000</p>
-           <p> Features: Personal Loans for Salaried Individuals</p>
+           <p>Amount range:₹3,000-₹10,00,000</p>
+           <p>Features: Personal Loan for Salaried and Self-Employed Individuals</p>
            
            <div className='anothertext'>
            <button className="firstonebutton">
@@ -1540,17 +1547,17 @@ const handleClickOpen98 = () => {
                       fontSize: "18px",
                     }}
                   >
-                    GrievanceRedressalOfficer: Ms. Asharani
+                    GrievanceRedressalOfficer: Mr. Sauraw Kumar
                     <br />
-                    Company name: Finnovation Tech Solutions Private Limited
+                    Company name: KrazyBee Services Private Limited
                     <br />
-                    Tel: 080-44292200 / 080-68534522
+                    Tel: 8044292555 / 8068534555
                     <br />
-                    Email: help@kreditbee.in
+                    Email: reachus@kbnbfc.in
                     <br />
-                    CustomerCare: 080-44292200,help@kreditbee.in
+                    CustomerCare: 8044292555 , reachus@kbnbfc.in
                     <br />
-                    GRO link: <a href="https://www.kreditbee.in/grievance-redressal">https://www.kreditbee.in/grievance-redressal</a>
+                    GRO link: <a href="https://www.kbnbfc.in/grievance-redressal">https://www.kbnbfc.in/grievance-redressal</a>
                   </div>
                 </DialogContent>
               </BootstrapDialog>
@@ -5745,7 +5752,7 @@ const handleClickOpen98 = () => {
         </div>
         </div>
 
-                   {/*-----------------------------------------77--JetFund-------------------------------------------*/}
+                   {/*-----------------------------------------78--JetFund-------------------------------------------*/}
         <div className='newallfirst'>
             <div className='firstoneimage'>
             <img src={jetfund} alt='Lenderimage'></img>
@@ -5806,8 +5813,70 @@ const handleClickOpen98 = () => {
            </div>
         </div>
         </div>
+        {/*-----------------------------------------79--kubiz-------------------------------------------*/}
+        <div className='newallfirst'>
+            <div className='firstoneimage'>
+            <img src={kubiz} alt='Lenderimage'></img>
+            <p>kubiz</p> 
+            </div>
+           <div className='secondonetext'>
+           <p>Amount range: ₹1,000-₹50,000</p>
+           <p> Features: Quick disbursement</p>
+           
+           <div className='anothertext'>
+           <button className="firstonebutton">
+            <a 
+           style={{ textDecoration: "none", color: "white" }}
+           href='https://app.credithaat.com/pl_journey?dsa=629678012&source=lending_partner'>Apply now</a>
+            </button><span>
+            <button className="secondonebutton" onClick={handleClickOpen99}>Know more</button></span>
+           <BootstrapDialog
+                onClose={handleClose}
+                aria-labelledby="customized-dialog-title"
+                open={open99}
+              >
+                <IconButton
+                  aria-label="close"
+                  onClick={handleClose}
+                  sx={{
+                    position: "absolute",
+                    right: 8,
+                    top: 8,
+                    color: (theme) => theme.palette.grey[500],
+                  }}
+                >
+                <CloseIcon />
+                </IconButton>
+                <DialogContent dividers>
+                  <div
+                    gutterBottom
+                    style={{
+                      fontFamily: "Noto Serif",
+                      color: "#3E2780",
+                      fontSize: "18px",
+                    }}
+                  >
+                    <br/>
+                    GrievanceRedressalOfficer: Mr. Nidheesh Samant
+                    <br />
+                    Company name: Kubiz Capital Private Limited
+                    <br />
+                    Contact phone : +91 8433902409
+                    <br/>
+                    Email: grievance@kubiz.in
+                    <br/>
+                    CustomerCare : 8419941991 / care@kubiz.in
+                    <br/>
+                    GRO link: <a href="https://kubiz.in/grievance">https://kubiz.in/grievance</a>
+                  </div>
+                </DialogContent>
+              </BootstrapDialog>
+           </div>
+        </div>
+        </div>
 
       </div>
+      
       <NewHomePageFooter/>
       <NewCityFooter/>
       </>
